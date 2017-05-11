@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_title">Menu</string>
+    <string name="str_app_remove_message">Do you want to remove this application?</string>
+    <string name="dialog_btn_1">OK</string>
+    <string name="dialog_btn_2">Cancel</string>
+    <string name="delete">删除</string>
+    <string name="clear">清空</string>
+    <string name="all_keyboard">全键盘</string>
+    <string name="t9_keyboard">T9键盘</string>
+    <string name="input_no_words_delete">无内容可删除</string>
+    <string name="input_no_words_clear">无内容可清空</string>
+    <string name="app_name">Home</string>
+    <string name="local_add">Add</string>
+    <string name="local_added">Added</string>
+    <string name="local_remove">Remove</string>
+    <string name="myapp">My Application</string>
+    <string name="local_add_tips">Press [Menu] to remove added applications</string>
+    <string name="local_app_is_uninstall_tips">This application has been uninstalled. Try to reinstall it or remove this access.</string>
+    <string name="disconnect_network">Network not connected</string>
+    <string name="state_bar_sign">Sign In</string>
+    <string name="state_bar_signed">Signed In</string>
+    <string name="state_bar_msg">Message</string>
+    <string name="state_bar_disk">USB-disk</string>
+    <string name="state_bar_sdcard">SD card</string>
+    <string name="state_bar_hot">Hot spot</string>
+    <string name="state_bar_net">Network</string>
+    <string name="state_bar_blue">Bluetooth</string>
+    <string name="state_bar_user">Account</string>
+    <string name="state_bar_blue_control">Bluetooth-enabled remote control</string>
+    <string name="appbar_txt_source">Source</string>
+    <string name="appbar_txt_media">Local Media</string>
+    <string name="appbar_txt_setting">Setting</string>
+    <string name="appbar_txt_myapp">My App</string>
+    <string name="menu_txt_one">On top</string>
+    <string name="menu_txt_two">Remove</string>
+    <string name="toast_stick">This application is already topped.</string>
+    <string name="toast_stick_system_remove_fail">System application is not removable!</string>
+    <string name="toast_stick_remove_fail">Remove fail!</string>
+    <string name="toast_not_edit">System application is not editable</string>
+    <string name="toast_app_not_installed">the application is not installed!</string>
+
+
+    <string name="str_progress_title">Progress Dialog</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="download_failed">Download failed!</string>
+    <string name="new_version_text">Discovery of new version,Whether to update?</string>
+    <string name="ok">OK</string>
+    <string name="skip_this_version">Skip</string>
+    <string name="download_not_usb_device">User data derictory is not enough free space.Please uninstall some application or insert the USB storage device.</string>
+    <string name="download_not_usb_device_full">User data derictory and USB storage are not enough free space.Please uninstall some application or delete some files in USB storage device.</string>
+</resources>

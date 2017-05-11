@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularLoadingView">
+        <attr name="loadingviewborderWidth" format="dimension" />
+        <attr name="loadingviewcircleBackgroundColor" format="color" />
+        <attr name="loadingviewcircleRunningColor" format="color" />
+        <attr name="loadingviewsweepAnimationDurationMillis" format="integer" />
+        <attr name="loadingviewangleAnimationDurationMillis" format="integer" />
+        <attr name="loadingviewminSweepAngle" format="integer" />
+    </declare-styleable>
+</resources>

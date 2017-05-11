@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:layout_width="wrap_content">
+    <LinearLayout style="@style/hot_key_bg_style">
+        <ImageView style="@style/hot_key_idle_img_press_ststus_bg_l_style" />
+        <LinearLayout style="@style/hot_key_idle_img_press_ststus_bg_m_style">
+            <ImageView style="@style/hot_key_sleep_logo_style" />
+            <ImageView
+                style="@style/hot_key_idle_img_press_ststus_separator_style" />
+            <LinearLayout
+                android:id="@+id/hot_key_combo_button_sleep_mode"
+                style="@style/hot_key_text_view_layout_style">
+                <TextView
+                    android:text="@string/str_textviewhot_key_combo_button_sleep_mode"
+                    style="@style/hot_key_text_view_style" />
+                <TextView
+                    android:id="@+id/textview_sleep_mode_val"
+                    android:text="@string/str_textviewhot_key_combo_button_sleep_mode"
+                    style="@style/hot_key_text_view_indicator_style" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView style="@style/hot_key_idle_img_press_ststus_bg_r_style" />
+    </LinearLayout>
+</LinearLayout>

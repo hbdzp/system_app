@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="hot_key_volume_layout_style">
+		<item name="android:layout_width">275dip</item>
+		<item name="android:layout_height">35dip</item>
+		<item name="android:background">@drawable/button_focused</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:focusable">true</item>
+		<item name="android:layout_gravity">center</item>
+	</style>
+
+	<style name="hot_key_volume_bg_style">
+		<item name="android:layout_width">275dip</item>
+		<item name="android:layout_height">104dip</item>
+		<item name="android:layout_gravity">center_horizontal|bottom</item>
+		<item name="android:background">@drawable/hotkey_bg</item>
+	</style>
+	<style name="hot_key_bg_style">
+		<item name="android:layout_width">273dip</item>
+		<item name="android:layout_height">71dip</item>
+		<item name="android:layout_marginLeft">28dip</item>
+		<item name="android:layout_marginTop">17dip</item>
+	</style>
+	<style name="hot_key_idle_img_press_ststus_bg_l_style">
+		<item name="android:layout_width">13dip</item>
+		<item name="android:layout_height">71dip</item>
+		<item name="android:src">@drawable/idle_img_press_ststus_bg_l</item>
+	</style>
+	<style name="hot_key_idle_img_press_ststus_bg_m_style">
+		<item name="android:layout_width">247dip</item>
+		<item name="android:layout_height">71dip</item>
+		<item name="android:background">@drawable/idle_img_press_ststus_bg_m</item>
+	</style>
+	<style name="hot_key_idle_img_press_ststus_bg_r_style">
+		<item name="android:layout_width">13dip</item>
+		<item name="android:layout_height">71dip</item>
+		<item name="android:src">@drawable/idle_img_press_ststus_bg_r</item>
+	</style>
+
+	<style name="hot_key_picture_logo_style">
+		<item name="android:layout_width">60dip</item>
+		<item name="android:layout_height">60dip</item>
+		<item name="android:layout_marginTop">5dip</item>
+		<item name="android:src">@drawable/idle_img_press_ststus_picture</item>
+	</style>
+	<style name="hot_key_pvr_logo_style">
+		<item name="android:layout_width">60dip</item>
+		<item name="android:layout_height">60dip</item>
+		<item name="android:layout_marginTop">5dip</item>
+		<item name="android:src">@drawable/idle_img_press_ststus_pvr</item>
+	</style>
+	<style name="hot_key_sound_logo_style">
+		<item name="android:layout_width">60dip</item>
+		<item name="android:layout_height">60dip</item>
+		<item name="android:layout_marginTop">5dip</item>
+		<item name="android:src">@drawable/idle_img_press_ststus_sound</item>
+	</style>
+	<style name="hot_key_sleep_logo_style">
+		<item name="android:layout_width">60dip</item>
+		<item name="android:layout_height">60dip</item>
+		<item name="android:layout_marginTop">5dip</item>
+		<item name="android:src">@drawable/idle_img_press_ststus_sleep</item>
+	</style>
+	<style name="hot_key_zoom_logo_style">
+		<item name="android:layout_width">60dip</item>
+		<item name="android:layout_height">60dip</item>
+		<item name="android:layout_marginTop">5dip</item>
+		<item name="android:src">@drawable/idle_img_press_ststus_ratio</item>
+	</style>
+	<style name="hot_key_idle_img_press_ststus_separator_style">
+		<item name="android:layout_width">4dip</item>
+		<item name="android:layout_height">60dip</item>
+		<item name="android:layout_marginTop">5dip</item>
+		<item name="android:layout_marginLeft">11dip</item>
+		<item name="android:src">@drawable/idle_img_press_ststus_separator</item>
+	</style>
+	<style name="hot_key_text_view_layout_style">
+		<item name="android:layout_width">188dip</item>
+		<item name="android:layout_height">60dip</item>
+		<item name="android:layout_marginTop">5dip</item>
+		<item name="android:layout_marginLeft">9dip</item>
+		<item name="android:orientation">vertical</item>
+	</style>
+	<style name="hot_key_text_view_style">
+		<item name="android:layout_width">133dip</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:textSize">17dip</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:layout_height">27dip</item>
+		<item name="android:text">@string/str_textviewhot_key_combo_button_picture_mode</item>
+	</style>
+	<style name="hot_key_text_view_indicator_style">
+		<item name="android:layout_width">187dip</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:textSize">24dip</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:layout_height">33dip</item>
+	</style>
+	<style name="hot_key_volume_textview_style">
+		<item name="android:layout_width">87dip</item>
+		<item name="android:layout_height">35dip</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">15dip</item>
+		<item name="android:layout_marginRight">27dip</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+	<style name="hot_key_volume_indicator_textview_style">
+		<item name="android:layout_width">33dip</item>
+		<item name="android:layout_height">35dip</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">15dip</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+	<style name="hot_key_volume_bar_style">
+		<item name="android:layout_width">111dip</item>
+		<item name="android:layout_height">7dip</item>
+		<item name="android:layout_marginTop">14dip</item>
+		<item name="android:layout_marginRight">13dip</item>
+		<item name="android:max">100</item>
+		<item name="android:progress">50</item>
+		<item name="android:indeterminateOnly">false</item>
+		<item name="android:progressDrawable">@android:drawable/progress_horizontal</item>
+		<item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal
+		</item>
+		<item name="android:minHeight">20dip</item>
+		<item name="android:maxHeight">20dip</item>
+	</style>
+
+
+
+
+
+
+
+
+</resources>

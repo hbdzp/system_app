@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"    android:layout_height="match_parent"    android:layout_width="wrap_content">
+    <LinearLayout style="@style/hot_key_volume_bg_style">
+        <LinearLayout
+            android:id="@+id/linearLayout_volume"
+            style="@style/hot_key_volume_layout_style">
+            <TextView
+                android:text="@string/volume"
+                style="@style/hot_key_volume_textview_style" />
+            <TextView
+                android:id="@+id/textview_vol"
+                android:text="@string/str_hot_key_volume_default_val"
+                style="@style/hot_key_volume_indicator_textview_style" />
+            <ProgressBar
+                android:id="@+id/bar_vol"
+                style="@style/hot_key_volume_bar_style" />
+        </LinearLayout>
+    </LinearLayout></LinearLayout>

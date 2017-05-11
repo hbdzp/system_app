@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <MStar Software>
+    ******************************************************************************
+     MStar Software
+     Copyright (c) 2010 - 2014 MStar Semiconductor, Inc. All rights reserved.
+     All software, firmware and related documentation herein ("MStar Software") are
+     intellectual property of MStar Semiconductor, Inc. ("MStar") and protected by
+     law, including, but not limited to, copyright law and international treaties.
+     Any use, modification, reproduction, retransmission, or republication of all
+     or part of MStar Software is expressly prohibited, unless prior written
+     permission has been granted by MStar.
+
+     By accessing, browsing and/or using MStar Software, you acknowledge that you
+     have read, understood, and agree, to be bound by below terms ("Terms") and to
+     comply with all applicable laws and regulations:
+
+     1. MStar shall retain any and all right, ownership and interest to MStar
+        Software and any modification/derivatives thereof.
+        No right, ownership, or interest to MStar Software and any
+        modification/derivatives thereof is transferred to you under Terms.
+
+     2. You understand that MStar Software might include, incorporate or be
+        supplied together with third party's software and the use of MStar
+        Software may require additional licenses from third parties.
+        Therefore, you hereby agree it is your sole responsibility to separately
+        obtain any and all third party right and license necessary for your use of
+        such third party's software.
+
+     3. MStar Software and any modification/derivatives thereof shall be deemed as
+        MStar's confidential information and you agree to keep MStar's
+        confidential information in strictest confidence and not disclose to any
+        third party.
+
+     4. MStar Software is provided on an "AS IS" basis without warranties of any
+        kind. Any warranties are hereby expressly disclaimed by MStar, including
+        without limitation, any warranties of merchantability, non-infringement of
+        intellectual property rights, fitness for a particular purpose, error free
+        and in conformity with any international standard.  You agree to waive any
+        claim against MStar for any loss, damage, cost or expense that you may
+        incur related to your use of MStar Software.
+        In no event shall MStar be liable for any direct, indirect, incidental or
+        consequential damages, including without limitation, lost of profit or
+        revenues, lost or damage of data, and unauthorized system use.
+        You agree that this Section 4 shall still apply without being affected
+        even if MStar Software has been modified by MStar in accordance with your
+        request or instruction for your use, except otherwise agreed by both
+        parties in writing.
+
+     5. If requested, MStar may from time to time provide technical supports or
+        services in relation with MStar Software to you for your use of
+        MStar Software in conjunction with your or your customer's product
+        ("Services").
+        You understand and agree that, except otherwise agreed by both parties in
+        writing, Services are provided on an "AS IS" basis and the warranty
+        disclaimer set forth in Section 4 above shall apply.
+
+     6. Nothing contained herein shall be construed as by implication, estoppels
+        or otherwise:
+        (a) conferring any license or right to use MStar name, trademark, service
+            mark, symbol or any other identification;
+        (b) obligating MStar or any of its affiliates to furnish any person,
+            including without limitation, you and your customers, any assistance
+            of any kind whatsoever, or any information; or
+        (c) conferring any license or right under any intellectual property right.
+
+     7. These terms shall be governed by and construed in accordance with the laws
+        of Taiwan, R.O.C., excluding its conflict of law rules.
+        Any and all dispute arising out hereof or related hereto shall be finally
+        settled by arbitration referred to the Chinese Arbitration Association,
+        Taipei in accordance with the ROC Arbitration Law and the Arbitration
+        Rules of the Association by three (3) arbitrators appointed in accordance
+        with the said Rules.
+        The place of arbitration shall be in Taipei, Taiwan and the language shall
+        be English.
+        The arbitration award shall be final and binding to both parties.
+
+    ******************************************************************************
+    <MStar Software>
+-->
+
+<resources>
+
+    <string name="app_name">com.mstar.电视设置.热键</string>
+    <string name="str_textviewhot_key_combo_button_picture_mode">图片 模式</string>
+    <string name="str_textviewhot_key_combo_button_pvr_mode">录制 模式</string>
+    <string name="str_textviewhot_key_combo_button_sleep_mode">休眠 模式</string>
+    <string name="str_textviewhot_key_combo_button_sound_mode">声音 模式</string>
+    <string name="str_hot_key_volume_default_val">50</string>
+    <string name="str_textviewhot_key_combo_button_zoom_mode">缩放 模式</string>
+    <string name="static_source_alert">首选为静态预览信号源？</string>
+    <string name="str_philips_source_menu">信源列表</string>
+
+    <string-array name="str_arr_input_source_vals">
+        <item>电脑</item>
+        <item>电视</item>
+        <item>视频</item>
+        <item>视频2</item>
+        <item>视频3</item>
+        <item>视频4</item>
+        <item>视频5</item>
+        <item>视频6</item>
+        <item>视频7</item>
+        <item>视频8</item>
+        <item>CVBS_MAX</item>
+        <item>SVIDEO</item>
+        <item>SVIDEO2</item>
+        <item>SVIDEO3</item>
+        <item>SVIDEO4</item>
+        <item>SVIDEO_MAX</item>
+        <item>分量</item>
+        <item>YPBPR2</item>
+        <item>YPBPR3</item>
+        <item>YPBPR_MAX</item>
+        <item>SCART</item>
+        <item>SCART2</item>
+        <item>SCART_MAX</item>
+        <item>HDMI1</item>
+        <item>HDMI2</item>
+        <item>HDMI3</item>
+        <item>HDMI4</item>
+        <item>HDMI_MAX</item>
+        <item>DTV</item>
+        <item>DVI</item>
+        <item>DVI2</item>
+        <item>DVI3</item>
+        <item>DVI4</item>
+        <item>DVI_MAX</item>
+        <item>STORAGE</item>
+        <item>KTV</item>
+        <item>JPEG</item>
+        <item>DTV2</item>
+        <item>STORAGE2</item>
+        <item>DIV3</item>
+        <item>SCALER_OP</item>
+        <item>RUV</item>
+        <item>VGA2</item>
+        <item>VGA3</item>
+    </string-array>
+    <string-array name="str_arr_input_source_dtv_vals">
+        <item>电脑</item>
+        <item>模拟电视</item>
+        <item>视频</item>
+        <item>视频2</item>
+        <item>视频3</item>
+        <item>视频4</item>
+        <item>视频5</item>
+        <item>视频6</item>
+        <item>视频7</item>
+        <item>视频8</item>
+        <item>CVBS_MAX</item>
+        <item>SVIDEO</item>
+        <item>SVIDEO2</item>
+        <item>SVIDEO3</item>
+        <item>SVIDEO4</item>
+        <item>SVIDEO_MAX</item>
+        <item>分量</item>
+        <item>YPBPR2</item>
+        <item>YPBPR3</item>
+        <item>YPBPR_MAX</item>
+        <item>SCART</item>
+        <item>SCART2</item>
+        <item>SCART_MAX</item>
+        <item>HDMI1</item>
+        <item>HDMI2</item>
+        <item>HDMI3</item>
+        <item>HDMI4</item>
+        <item>HDMI_MAX</item>
+        <item>数字电视</item>
+        <item>DVI</item>
+        <item>DVI2</item>
+        <item>DVI3</item>
+        <item>DVI4</item>
+        <item>DVI_MAX</item>
+        <item>STORAGE</item>
+        <item>KTV</item>
+        <item>JPEG</item>
+        <item>DTV2</item>
+        <item>STORAGE2</item>
+        <item>DIV3</item>
+        <item>SCALER_OP</item>
+        <item>RUV</item>
+        <item>VGA2</item>
+        <item>VGA3</item>
+    </string-array>
+    <string-array name="str_arr_philips_input_source">
+        <item>模拟电视</item>
+        <item>数字电视</item>
+        <item>互联易享</item>
+        <item>U盘</item>
+        <item>视频</item>
+        <item>HDMI1</item>
+        <item>HDMI2</item>
+        <item>HDMI3</item>
+    </string-array>
+    <string-array name="str_arr_songxia_input_source">
+        <item>HDMI1</item>
+        <item>HDMI2</item>
+        <item>HDMI3</item>
+        <item>视频</item>
+        <item>模拟电视</item>
+        <item>地面数字</item>
+    </string-array>
+    <string name="str_input_source_dialog">请等待!</string>
+    <string name="str_input_source_title">输入源</string>
+    <!-- root pop up -->
+    <string name="str_root_popup_left">之内</string>
+    <string name="str_root_popup_second">秒</string>
+    <string name="str_root_popup_switch_to">切换到</string>
+    <string name="str_root_popup_ready_to_switch">准备执行开关</string>
+    <string name="str_root_popup_ready_off">准备关闭</string>
+    <string name="str_root_popup_off_after">秒后关机</string>
+    <string name="str_root_popup_system_clock_change">系统时间已更新...</string>
+
+    <string-array name="str_arr_root_popup_source">
+        <item>ATV</item>
+        <item>DTV</item>
+        <item>HDMI</item>
+    </string-array>
+
+    <string name="str_stop_record_dialog_title">确定要退出录像系统？</string>
+    <string name="str_stop_record_dialog_message">正在录像...确认要退出吗？</string>
+    <string name="str_stop_record_dialog_confirm">确定</string>
+    <string name="str_stop_record_dialog_cancel">取消</string>
+    <string name="str_root_alert_dialog_title">提示</string>
+    <string name="str_dtv_source_info_no_subtitle">很抱歉，沒有可用的字幕信息</string>
+    <string name="str_root_alert_dialog_confirm">确定</string>
+    <!-- nathan.liao 2015.03.03 add for T4C1 board start -->
+    <string name="str_sourceinfo_AV">视频</string>
+    <!-- nathan.liao 2015.03.03 add for T4C1 board end -->
+    <string name="str_timer_cancel">用户取消待机！</string>
+    <string name="str_inputsource_help">帮助</string>
+
+</resources>

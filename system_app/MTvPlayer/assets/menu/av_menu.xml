@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MenuItem name="AV">
+	<!--演示-->
+	<!--<MenuItem name="KTC_CFG_TV_SYSTEM_DEMO" command="TV_SHOW_DEMO" isFlipOutMenu="true"></MenuItem>-->
+	<!--画面比例-->
+	<MenuItem name="KTC_CFG_TV_DISPLAY_MODE" getvalcmd="TV_MENU_GET_DISPLAY_MODE" setvalcmd="TV_MENU_SET_DISPLAY_MODE" isFlipOutMenu="false"></MenuItem>
+	<!--3D-->
+	<!--<MenuItem name="KTC_CFG_TV_3D_SET" command="TV_SHOW_3D_MENU" isFlipOutMenu="true"></MenuItem>	-->
+	<!--图像模式-->
+	<MenuItem name="KTC_CFG_TV_PICTURE_MODE" getvalcmd="TV_MENU_GET_PICTURE_MODE" setvalcmd="TV_MENU_SET_PICTURE_MODE" isFlipOutMenu="false"></MenuItem>
+	<!--声音模式-->
+	<MenuItem name="KTC_CFG_TV_SOUND_MODE" getvalcmd="TV_MENU_GET_SOUND_MODE" setvalcmd="TV_MENU_SET_SOUND_MODE" isFlipOutMenu="false"></MenuItem>
+	<!--彩色制式(NTSC/PAL)-->
+	<!--<MenuItem name="KTC_CFG_TV_AV_COLOR_SYSTEM" getvalcmd="AV_GET_COLOR_SYSTEM" setvalcmd="AV_SET_COLOR_SYSTEM" isFlipOutMenu="false"></MenuItem>-->
+	<!--智能遥控-->
+	<!--<MenuItem name="KTC_CFG_INTELLIGENT_IR_MODE"  command="TV_MENU_SET_INTELLIGENT_MODE"  isFlipOutMenu="true"></MenuItem>-->
+</MenuItem>

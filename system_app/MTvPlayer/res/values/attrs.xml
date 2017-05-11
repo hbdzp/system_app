@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="border_width" format="dimension" />
+    <attr name="border_color" format="color" />
+    <attr name="border_overlay" format="boolean" />
+    <attr name="radiu" format="dimension" />
+    <attr name="blurRadius" format="integer" />
+    <attr name="downsampleFactor" format="integer" />
+    <attr name="overlayColor" format="color" />
+    <attr name="borderWidth" format="dimension" />
+    <attr name="circleBackgroundColor" format="color" />
+    <attr name="circleRunningColor" format="color" />
+    <attr name="sweepAnimationDurationMillis" format="integer" />
+    <attr name="angleAnimationDurationMillis" format="integer" />
+    <attr name="minSweepAngle" format="integer" />
+
+    <declare-styleable name="PxBlurringView">
+        <attr name="blur_radius" format="integer" />
+        <attr name="downsample_factor" format="integer" />
+        <attr name="overlay_color" format="color" />
+    </declare-styleable>
+</resources>

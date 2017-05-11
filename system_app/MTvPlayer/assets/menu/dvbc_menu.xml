@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MenuItem name="DVBC" showuitype="SQUARE">
+    <!--演示-->
+	<MenuItem name="KTC_CFG_TV_SYSTEM_DEMO" command="TV_SHOW_DEMO" isFlipOutMenu="true"></MenuItem>
+	<!--收藏-->
+	<MenuItem name="KTC_CFG_TV_COLLECT_CHANNEL" getvalcmd="TV_MENU_GET_COLLECT_CHANNEL" setvalcmd="TV_MENU_SET_COLLECT_CHANNEL" isFlipOutMenu="false" refresh="true"></MenuItem>
+	<!--画面比例-->
+	<MenuItem name="KTC_CFG_TV_DISPLAY_MODE" getvalcmd="TV_MENU_GET_DISPLAY_MODE" setvalcmd="TV_MENU_SET_DISPLAY_MODE" isFlipOutMenu="false"></MenuItem>
+	<!--3D-->
+	<MenuItem name="KTC_CFG_TV_3D_SET" command="TV_SHOW_3D_MENU" isFlipOutMenu="true"></MenuItem>
+	<!--图像模式-->
+	<MenuItem name="KTC_CFG_TV_PICTURE_MODE" getvalcmd="TV_MENU_GET_PICTURE_MODE" setvalcmd="TV_MENU_SET_PICTURE_MODE" isFlipOutMenu="false"></MenuItem>
+	<!--声音模式-->
+	<MenuItem name="KTC_CFG_TV_SOUND_MODE" getvalcmd="TV_MENU_GET_SOUND_MODE" setvalcmd="TV_MENU_SET_SOUND_MODE" isFlipOutMenu="false"></MenuItem>
+	<!--声道-->
+	<MenuItem name="KTC_CFG_TV_DTV_SOUND_CHANNEL" getvalcmd="DTV_MENU_GET_SOUNDCHANNEL" setvalcmd="DTV_MENU_SET_SOUNDCHANNEL" isFlipOutMenu="false"></MenuItem>
+	<!--音轨-->
+	<MenuItem name="KTC_CFG_TV_DTV_SOUND_TRACK" getvalcmd="DTV_MENU_GET_SOUNDTRACK" setvalcmd="DTV_MENU_SET_SOUNDTRACK" isFlipOutMenu="false"></MenuItem>
+	<!--字幕-->
+	<MenuItem name="KTC_CFG_TV_DTV_SUBTITLE" getvalcmd="DVBC_MENU_GET_SUBTITLE" setvalcmd="DVBC_MENU_SET_SUBTITLE" isFlipOutMenu="false"></MenuItem>
+	<!--频道设置-->
+	<MenuItem name="KTC_CFG_TV_CHANNEL_SETTING" isFlipOutMenu="false">
+		<!--搜台-->
+		<MenuItem name="KTC_CFG_TV_DVBC_SEARCH_CHANNEL" command="DVBC_SHOW_SEARCH_MENU" isFlipOutMenu="true"></MenuItem>
+		<!--频道排序-->
+		<MenuItem name="KTC_CFG_TV_CHANNEL_SORT" command="TV_CHANNEL_SORT" isFlipOutMenu="true" ></MenuItem>
+		<!-- 频道删除 -->
+		<MenuItem name="KTC_CFG_TV_CHANNEL_DELET" command="DVBC_CHANNELDELET_MENU" isFlipOutMenu="true"></MenuItem>
+		<!-- 已删除频道 -->
+		<MenuItem name="KTC_CFG_TV_CHANNEL_DELET_HAVE" command="TV_CHANNELDELETHAVE_MENU" isFlipOutMenu="true"></MenuItem>
+		<!--CA设置-->
+		<MenuItem name="KTC_CFG_TV_DVBC_CA_SETTING" command="DVBC_SHOW_CASET_MENU" isFlipOutMenu="true"></MenuItem>
+		<!--频道信息-->
+		<MenuItem name="KTC_CFG_TV_DVBC_CHANNEL_INFO" command="DVBC_SHOW_CHANNELINFO_MENU" isFlipOutMenu="true"></MenuItem>
+		<!--DTV信息-->
+		<MenuItem name="KTC_CFG_TV_DVBC_DTV_INFO" command="DVBC_SHOW_DTVINFO_MENU" isFlipOutMenu="true"></MenuItem>
+		<!--服务-->
+		<MenuItem name="KTC_CFG_TV_DVBC_SERVICE" command="DVBC_SHOW_SERVICE_MENU" isFlipOutMenu="true"></MenuItem>
+		<!--区域重置-->
+		<MenuItem name="KTC_CFG_TV_DVBC_REGION_RESET" command="DVBC_REST_REGIONSET_MENU" isFlipOutMenu="true"></MenuItem>
+	    <!--开机向导-->
+		<MenuItem name="KTC_CFG_TV_DVBC_OPEN_GUIDE" command="DVBC_SHOW_GUIDE_MENU" isFlipOutMenu="true"></MenuItem>
+	</MenuItem>		
+</MenuItem>

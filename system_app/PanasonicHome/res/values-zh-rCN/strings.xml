@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_title">菜单</string>
+    <string name="str_app_remove_message">确定要移除该应用?</string>
+    <string name="dialog_btn_1">确定</string>
+    <string name="dialog_btn_2">取消</string>
+    <string name="app_name">首页</string>
+    <string name="local_add">添加</string>
+    <string name="local_added">已添加</string>
+    <string name="local_remove">移除</string>
+    <string name="myapp">我的应用</string>
+    <string name="local_add_tips">按【菜单】键可移除已添加应用</string>
+    <string name="local_app_is_uninstall_tips">该应用已被卸载，请尝试重新安装应用或移除该入口</string>
+    <string name="disconnect_network">网络未连接</string>
+    <string name="state_bar_sign">签到</string>
+    <string name="state_bar_signed">已签到</string>
+    <string name="state_bar_msg">消息</string>
+    <string name="state_bar_disk">U盘</string>
+    <string name="state_bar_sdcard">SD卡</string>
+    <string name="state_bar_hot">热点</string>
+    <string name="state_bar_net">网络</string>
+    <string name="state_bar_blue">蓝牙</string>
+    <string name="state_bar_user">账户</string>
+    <string name="state_bar_blue_control">蓝牙遥控器</string>
+    <string name="appbar_txt_source">信号源</string>
+    <string name="appbar_txt_media">本地媒体</string>
+    <string name="appbar_txt_setting">设置</string>
+    <string name="appbar_txt_myapp">我的应用</string>
+    <string name="menu_txt_one">置顶</string>
+    <string name="menu_txt_two">移除</string>
+    <string name="toast_stick">应用已在置顶位置</string>
+    <string name="toast_stick_system_remove_fail">系统应用不可移除!</string>
+    <string name="toast_stick_remove_fail">移除应用失败!</string>
+    <string name="toast_not_edit">系统功能不可编辑</string>
+    <item type="string" name="APKTOOL_DUMMY_0022">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0023">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0024">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0025">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0026">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0027">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0028">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0029">false</item>
+    <item type="string" name="APKTOOL_DUMMY_002a">false</item>
+    <string name="toast_app_not_installed">应用未安装!</string>
+</resources>

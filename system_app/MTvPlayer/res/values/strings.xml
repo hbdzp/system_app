@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_title">Menu</string>
+    <string name="dialog_btn_1">OK</string>
+    <string name="dialog_btn_2">Cancel</string>
+    <string name="delete">删除</string>
+    <string name="clear">清空</string>
+    <string name="all_keyboard">全键盘</string>
+    <string name="t9_keyboard">T9键盘</string>
+    <string name="input_no_words_delete">无内容可删除</string>
+    <string name="input_no_words_clear">无内容可清空</string>
+    <string name="app_name">TVService</string>
+    <string name="nosignal_needsearch">no channel, search channel now?</string>
+    <string name="dialog_btn_search">search</string>
+    <string name="dialog_btn_searchlater">search later</string>
+    <string name="seconds_will_poweroff">s later turn off</string>
+    <string name="pressOkRestore">press Ok Restore</string>
+    <string name="placetop">SetTop</string>
+    <string name="isthefirstchannel">is the first channel</string>
+    <string name="isthelastchannel">is the last channel</string>
+    <string name="restored">has been restored</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="deleteinfo">No channel has been deleted</string>
+    <string name="nodeleteinfo">The last channel can not be deleted</string>
+    <string name="nochannelinfo">No channel information</string>
+    <string name="noinfotip">Above settings can not be empty</string>
+    <string name="errorinfotip">End frequency should move than 52</string>
+    <string name="search_channel">Search Channel</string>
+    <string name="nit_search">Nit Search</string>
+    <string name="str_tv_program">TV</string>
+    <string name="str_cur_frequency">Current Freq:</string>
+    <string name="str_radio_program">Radio</string>
+    <string name="str_rate">Code Rate:</string>
+    <string name="str_other_program">Other</string>
+    <string name="str_mode">Module Mode:</string>
+    <string name="search_progress">Search Progress</string>
+    <string name="signal_quality">Signal Quality</string>
+    <string name="signal_strength">Signal Strength</string>
+    <string name="mannual_search">Manual Search</string>
+    <string name="str_begin_frequency">Start Frequency</string>
+    <string name="str_end_frequency">End Frequency</string>
+    <string name="str_mode_name">Module Mode</string>
+    <string name="str_start_search">Start Search</string>
+    <string name="str_rate_name">Code Rate</string>
+    <string name="str_band_name">Band Width</string>
+    <string name="start_frequency">Start Frequency</string>
+    <string name="end_frequency">End Frequency</string>
+    <string name="crt_frequency">Current Frequency</string>
+    <string name="symbol_rate">Code Rate</string>
+    <string name="not_empty">Can not be empty</string>
+    <string name="str_frequencypoint_setting">Freq Point Setting</string>
+    <string name="str_video_vod">Video Vod</string>
+    <string name="frequencypoint_setting">Freq.set</string>
+    <string name="str_main_frequencypoint">Main Freq Point</string>
+    <string name="str_loader_frequencypoint">Loader Freq</string>
+    <string name="str_auto_search">Auto Search</string>
+    <string name="str_manual_search">Manual Search</string>
+    <string name="str_band">Band Width:</string>
+    <string name="crt_channel_num">Channel Count:</string>
+    <string name="str_current_frequency">Current Freq:</string>
+    <string name="cur_channel_index">Current Channel:</string>
+    <string name="frequency_adjust">Frequency Adjust</string>
+    <string name="auto_search">Auto Search</string>
+    <string name="frequency_segment">Freq Segment:</string>
+    <string name="channel_info">Channel Info</string>
+    <string name="app_epg_name">EPG</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Sytem_STARTUP_ING">Launching system</string>
+    <string name="DTV_STARTUP_ING">Starting up DTV</string>
+    <string name="SOURCE_ATV">ATV</string>
+    <string name="SOURCE_DVBC">DVBC</string>
+    <string name="SOURCE_DTMB">DTMB</string>
+    <string name="SOURCE_AV">AV</string>
+    <string name="SOURCE_HDMI">HDMI</string>
+    <string name="SOURCE_VGA">VGA</string>
+    <string name="SOURCE_YUV">YUV</string>
+    <string name="SOURCE_IPLIVE">IPLIVE</string>
+    <string name="SOURCE_REMEMBER">Remember</string>
+    <string name="SOURCE_VOD">ReView</string>
+    <string name="SOURCE_DEFAULT">Source</string>
+    <string name="DTV_DVBC_RADIO_INFO">Radio Program</string>
+    <string name="category_all">All</string>
+    <string name="category_cctv">CCTVs</string>
+    <string name="category_hd">HD</string>
+    <string name="category_startv">Local</string>
+    <string name="category_other">Other</string>
+    <string name="category_collect">Collect</string>
+    <string name="atvchannel">Analog TV</string>
+    <string name="currentchannel">Playing</string>
+    <string name="DVN_CA_STRING_PAIR_TITLE">DVN Password Check</string>
+    <string name="DVN_CA_STRING_PAIR_ID">ID:</string>
+    <string name="DVN_CA_STRING_PAIR_PWD">Password:</string>
+    <string name="DVN_CA_STRING_PAIR_BUTTON_ENTER">Enter</string>
+    <string name="DVN_CA_STRING_PWD_NOTIFY_LEN">Password length of 8 bits</string>
+    <string name="dvnca_card_Change_Token_info">For the current card:</string>
+    <string name="dvnca_card_detuct_token_info">Deducted from the card balance:</string>
+    <string name="dvnca_urgency_broadcast">Urgency broadcasting</string>
+    <string name="ca_urgency_broadcast">Channel in the lock</string>
+    <string name="DTV_CASETTING_FORCE_REBOOT">reboot system...</string>
+    <string name="dvnca_do_card_pair">是否进行机卡配对</string>
+    <string name="dvnca_tips_insert_right_card">请插入有效智能卡！</string>
+    <string name="dvnca_confirm_pair">配对</string>
+    <string name="dvnca_confirm_back">返回</string>
+    <string name="dvnca_card_pair_pairing_start">开始机卡配对...</string>
+    <string name="dvnca_card_pair_system_pairing">机卡配对中...</string>
+    <string name="dvnca_manu_pair_fail">配对失败.</string>
+    <string name="dvnca_card_pair_complete">配对完成!</string>
+    <string name="dvnca_get_emm_timemout">获取EMM数据超时</string>
+    <string name="dvnca_not_receive_cat">CAT没有收到</string>
+    <string name="goods_show_onlinebuy">在线购买</string>
+    <string name="goods_buy_onlinebuy">您正在购买：</string>
+    <string name="goods_buying">请稍等...</string>
+    <string name="goods_buy_makesure">确认支付</string>
+    <string name="goods_buy_cancel">取消</string>
+    <string name="goods_buy_success">购买成功！</string>
+    <string name="goods_price">￥%1$s元</string>
+    <string name="tv_menu_info">信息</string>
+    <string name="tv_menu_interaction">互动</string>
+    <string name="tv_menu_personal">个人</string>
+    <string name="tv_score_tip">总积分:</string>
+    <string name="tv_answer_tip">总答题:</string>
+    <string name="tv_weekly_rank_tip">状元周榜:</string>
+    <string name="tv_whole_rank_tip">状元总榜:</string>
+    <string name="btn_rank">排行榜</string>
+    <string name="btn_help">帮助说明</string>
+    <string name="tv_score">%s分</string>
+    <string name="kuyun_privacy_agreement">"酷云TV向您提供参与性更强、更有趣的看电视的新方式。您可在收看直播电视的过程中，全程在线实时参与和节目内容相关的问答、竞猜、投票、购物、关联资讯等互动娱乐活动，提升您收看节目的现场感、参与性和趣味性。
+
+"</string>
+    <string name="operating_instructions">"上下左右键：
+上线移动选中框位置
+
+OK键：
+选中位置后，按下ok键，确认选中状态，进入下一级
+屏幕左侧下方出现信息或互动提示时，按下遥控器Ok键打开进入相应信息与互动。
+
+返回键：
+按下遥控器返回键，可以返回上一级操作。
+"</string>
+    <string name="tv_title_avatar_edit">编辑头像</string>
+    <string name="tv_title_nickname_edit">编辑昵称</string>
+    <string name="tv_title_phone_edit">编辑手机号码</string>
+    <string name="tv_title_email_edit">编辑邮箱地址</string>
+    <string name="tv_title_rank">排行大厅</string>
+    <string name="tv_title_score_mall">积分商城</string>
+    <string name="tv_title_myfavorite">我的收藏</string>
+    <string name="tv_title_weekly_rank">周排行榜</string>
+    <string name="tv_title_whole_rank">总排行榜</string>
+    <string name="tv_answer">%s题</string>
+    <string name="tv_rank_order">第%s名</string>
+    <string name="tv_mini_interaction">互动迷你模式</string>
+    <string name="no_data">暂无数据</string>
+    <string name="tv_title_help">帮助说明</string>
+    <string name="tv_title_about">关于应用</string>
+    <string name="ok_tip">确认键: 进入当前选择焦点</string>
+    <string name="left_tip">左    键: 向左切换顶部导航</string>
+    <string name="right_tip">右    键: 向右切换顶部导航</string>
+    <string name="up_tip">上    键: 向上移动选择焦点</string>
+    <string name="down_tip">下    键: 向下移动选择焦点</string>
+    <string name="back_tip">返回键: 返回上一级</string>
+    <string name="tv_title_operation">操作说明</string>
+    <string name="show_back_info">遥控器返回键返回上一级</string>
+    <string name="add_favorite">收藏</string>
+    <string name="cancel_favorite">取消收藏</string>
+    <string name="fail_to_operation">操作失败 T_T</string>
+    <string name="save">Save</string>
+    <string name="send_to_phone">发送到手机</string>
+    <string name="send_to_mail">发送到邮箱</string>
+    <string name="input_phone">输入手机号码</string>
+    <string name="input_mail">输入电子邮箱</string>
+    <string name="format_not_correct">格式不正确</string>
+    <string name="have_been_saved">已保存过</string>
+    <string name="success_to_save">保存成功</string>
+    <string name="information_introduction_more">查看详情</string>
+    <string name="introduction_title">节目详情</string>
+    <string name="send_info_add_phone">添加手机号码</string>
+    <string name="send_info_add_email">添加邮箱</string>
+    <string name="send_info_clear_list">清除列表</string>
+    <string name="have_been_sent">已发送</string>
+    <string name="interaction_preview_title">互动预告</string>
+    <string name="interaction_preview_today">今天</string>
+    <string name="tv_scoremall_tips">积分商城会在近日开放，届时可以用玩互动赢得的积分购买物品，我们会以邮寄的方式将您购买的物品寄送到您手中，各位小伙伴努力积攒积分哦！</string>
+    <string name="action_result_tips1">竞猜成功获得</string>
+    <string name="action_result_tips2">您选择的答案是:</string>
+    <string name="action_result_tips3">获得</string>
+    <string name="action_result_right">回答正确</string>
+    <string name="action_result_wrong">回答错误</string>
+    <string name="action_score">积分</string>
+    <string name="action_score_total">总积分</string>
+    <string name="interaction_answer_tips">正确答案</string>
+    <string name="show_no_tv">此节目没有相关信息！</string>
+    <string name="upnp_device_name">酷云TV</string>
+    <string name="vote_success">选择成功，您的选择是：</string>
+    <string name="ceshi1">测试1</string>
+    <string name="ceshi2">测试2</string>
+    <string name="ceshi3">测试3</string>
+    <string name="ceshi4">测试4</string>
+    <string name="vod_no_net">Has no network!</string>
+    <string name="TV_STRING_ATV_CHANNEL">ATV</string>
+    <string name="TV_STRING_SETTING">Setting</string>
+    <string name="TV_STRING_VOLUME_COMPENSATION">Vol Compen.</string>
+    <string name="TV_STRING_CHANNEL_INFO">Channel Info</string>
+    <string name="TV_STRING_CACARD_INFO">Cacard Info</string>
+    <string name="TV_STRING_DTV_INFO">DTV Info</string>
+    <string name="TV_STRING_DTV_CASETTING">CA Setting</string>
+    <string name="TV_STRING_IRDETOEMM_INFO">EMM info</string>
+    <string name="TV_STRING_IRDETOECM_INFO">ECM info</string>
+    <string name="TV_STRING_PAL">PAL</string>
+    <string name="TV_STRING_NTSC">NTSC</string>
+    <string name="TV_STRING_PAL_BGHI">PAL_BGHI</string>
+    <string name="TV_STRING_NTSC_M">NTSC_M</string>
+    <string name="TV_STRING_SECAM">SECAM</string>
+    <string name="TV_STRING_NTSC_44">NTSC_44</string>
+    <string name="TV_STRING_PAL_M">PAL_M</string>
+    <string name="TV_STRING_PAL_N">PAL_N</string>
+    <string name="TV_STRING_PAL_60">PAL_60</string>
+    <string name="TV_STRING_NOTSTANDARD">NOTSTANDARD</string>
+    <string name="TV_STRING_AUTO">AUTO</string>
+    <string name="TV_STRING_I">I</string>
+    <string name="TV_STRING_DK">DK</string>
+    <string name="TV_STRING_BG">BG</string>
+    <string name="TV_STRING_M">M</string>
+    <string name="TV_STRING_L">L</string>
+    <string name="TV_STRING_EPG_TIME_TODAY">Today</string>
+    <string name="TV_STRING_EPG_TIME_TOMORROW">Tomorrow</string>
+    <string name="TV_STRING_EPG_TIME_MONDAY">MON</string>
+    <string name="TV_STRING_EPG_TIME_TUESDAY">TUE</string>
+    <string name="TV_STRING_EPG_TIME_WEDNESDAY">WED</string>
+    <string name="TV_STRING_EPG_TIME_THURSDAY">THU</string>
+    <string name="TV_STRING_EPG_TIME_FRIDAY">FRI</string>
+    <string name="TV_STRING_EPG_TIME_SATURDAY">SAT</string>
+    <string name="TV_STRING_EPG_TIME_SUNDAY">SUN</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_STATUS">Card status:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_NUMBER">Card number:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_TYPE">Type:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_VERSION">Version:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_BUILD">Build:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_VARIANT">Variant:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_PATCH_LEVEL">Patch Level:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_OWNER_ID">Owner ID:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_NATIONALITY">Nationality:</string>
+    <string name="TV_STRING_ATV_CHANNEL_SKIP">SkipChannel</string>
+    <string name="TV_STRING_ATV_FREQUENCY_FINE">Freq. Set</string>
+    <string name="TV_STRING_ATV_AUDIOMODE_NICAM">NICAM</string>
+    <string name="TV_STRING_ATV_AUDIOMODE_NICAM_MONO">MONO</string>
+    <string name="TV_STRING_ATV_AUDIOMODE_NICAM_STEREO">STEREO</string>
+    <string name="TV_STRING_ATV_AUDIOMODE_NICAM_DUAL_A">DUAL_A</string>
+    <string name="TV_STRING_ATV_AUDIOMODE_NICAM_DUAL_B">DUAL_B</string>
+    <string name="TV_STRING_ATV_AUDIOMODE_NICAM_DUAL_AB">DUAL_AB</string>
+    <string name="TV_STRING_DTV_NIT_SEARCH">NitSearch</string>
+    <string name="TV_STRING_DTV_FULL_SEARCH">FullSearch</string>
+    <string name="TV_STRING_DTV_SERVICE">Service</string>
+    <string name="TV_STRING_DTV_SERVICE_TV">Live</string>
+    <string name="TV_STRING_DTV_SERVICE_BROADCAST">Broadcast</string>
+    <string name="TV_STRING_DTV_SERVICE_VOD">VOD</string>
+    <string name="TV_STRING_DTV_SOUNDCHANNEL">Sound Chan.</string>
+    <string name="TV_STRING_DTV_SOUNDTRACK">Sound Track</string>
+    <string name="TV_STRING_DTV_MAIL">Mail</string>
+    <string name="TV_STRING_DTV_SWITCHCHANNELMODE">Modes</string>
+    <string name="TV_STRING_DTV_CASELECTOR">CA Select</string>
+    <string name="TV_STRING_DTV_FREQUENCY_SET">Freq. Set</string>
+    <string name="TV_STRING_DTV_COLLECT_CHANNEL">Collect</string>
+    <string name="TV_STRING_DTV_CATYPE">CA Type</string>
+    <string name="TV_STRING_DTV_DTVSOFTWARETYPE">Soft Type</string>
+    <string name="TV_STRING_DTV_DTVSOFTWAREVERSION">Soft Version</string>
+    <string name="TV_STRING_DTV_HWVERSION">HW Type</string>
+    <string name="TV_STRING_DTV_LDRTYPE">LDR Version</string>
+    <string name="TV_STRING_DTV_RELEASETIME">Release Time</string>
+    <string name="TV_STRING_DTV_SERIALID">Serial ID</string>
+    <string name="TV_STRING_DTV_USERID">USER ID</string>
+    <string name="TV_STRING_DTV_AUD_STREAM_TYPE">AUD</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_MPEG1">MPEG1</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_MPEG">MPEG</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_MP3">MP3</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_AAC">AAC</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_AAC_PLUS">AAC_PLUS</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_AC3">AC3</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_AC3_PLUS">AC3_PLUS</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_AC3_DOLBY">Dolby Audio</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_AC3_PLUS_DOLBY">Dolby Audio</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DTS">DTS</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_LPCM_BLURAY">LPCM_BLURAY</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_PCM">PCM</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_WMA_STD">WMA_STD</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_WMA_PRO">WMA_PRO</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA">DRA</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_COOK">COOK</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_AVS">AVS</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_WAVE">WAVE</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_INVALID">UNKOWN</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA10">DRA 1.0</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA11">DRA 1.1</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA20">DRA 2.0</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA21">DRA 2.1</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA30">DRA 3.0</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA31">DRA 3.1</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA40">DRA 4.0</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA41">DRA 4.1</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA50">DRA 5.0</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA51">DRA 5.1</string>
+    <string name="TV_STRING_DTV_SOUND_TYPE_LEFT">Left</string>
+    <string name="TV_STRING_DTV_SOUND_TYPE_RIGHT">Right</string>
+    <string name="TV_STRING_DTV_SOUND_TYPE_STEREO">Stereo</string>
+    <string name="TV_STRING_DTV_SOUND_TYPE_MONO">MONO</string>
+    <string name="TV_STRING_DTV_SOUND_TRACE_1">TRACE_1</string>
+    <string name="TV_STRING_DTV_SOUND_TRACE_2">TRACE_2</string>
+    <string name="TV_STRING_DTV_SOUND_TRACE_3">TRACE_3</string>
+    <string name="TV_STRING_DTV_SOUND_TRACE_4">TRACE_4</string>
+    <string name="TV_STRING_DTV_SOUND_TRACE_5">TRACE_5</string>
+    <string name="TV_STRING_DTV_SOUND_TRACE">Audio</string>
+    <string name="TV_STRING_DTV_CHANGE_TYPE_MIRROR">MIRROR</string>
+    <string name="TV_STRING_DTV_CHANGE_TYPE_BLANK">BLANK</string>
+    <string name="TV_STRING_DTV_CHANNEL_ID">Channel Id</string>
+    <string name="TV_STRING_DTV_CHANNEL_NAME">Channel Name</string>
+    <string name="TV_STRING_DTV_SOUND_TYPE">Sound Type</string>
+    <string name="TV_STRING_DTV_TSID">TS ID</string>
+    <string name="TV_STRING_DTV_SERVICEID">Service ID</string>
+    <string name="TV_STRING_DTV_PCR">PCR</string>
+    <string name="TV_STRING_DTV_VPID">VPID</string>
+    <string name="TV_STRING_DTV_APID">APID</string>
+    <string name="TV_STRING_DTV_FREQUENCY">frequency</string>
+    <string name="TV_STRING_DTV_SYMBOLRATE">symbolRate</string>
+    <string name="TV_STRING_DTV_MODEL">model</string>
+    <string name="TV_STRING_DTV_SIGNALQUALITY">signalquality</string>
+    <string name="TV_STRING_DTV_SIGNALBERT">signalBert</string>
+    <string name="TV_STRING_INFO">Info</string>
+    <string name="TV_STRING_DTV_NO_CARD">please insert smart card</string>
+    <string name="TV_STRING_DTV_SUBTITLE">Subtitle</string>
+    <string name="TV_STRING_DTV_SUBTITLE_NO_SUBTITLE">No Subtitle</string>
+    <string name="TV_STRING_DTV_SUBTITLE_CHANESE_SIMPLIFIED">Simplified</string>
+    <string name="TV_STRING_DTV_SUBTITLE_CHANESE_TRADITIONAL">Traditional</string>
+    <string name="TV_STRING_DTV_SUBTITLE_ENGLISH">English</string>
+    <string name="TV_STRING_DTV_SUBTITLE_CLOSE_SUBTITLE">Close</string>
+    <string name="TV_STRING_VGA_AUTO_ADJUST">Auto Adjust</string>
+    <string name="TV_STRING_VGA_H_POSITION">H Position</string>
+    <string name="TV_STRING_VGA_V_POSITION">V Position</string>
+    <string name="TV_STRING_VGA_PHASE">Phase</string>
+    <string name="TV_STRING_VGA_FREQUENCY">Frequency</string>
+    <string name="TV_STRING_EPG_CHANNEL">Channel</string>
+    <string name="TV_STRING_EPG_DATE">Date</string>
+    <string name="TV_STRING_EPG_PROGRAMME">Programme</string>
+    <string name="TV_STRING_EPG_LIVERELATION">Relation</string>
+    <string name="TV_STRING_EPG_COLLECT">Collect</string>
+    <string name="TV_STRING_NO_SIGNAL">No Signal</string>
+    <string name="TV_STRING_TV_WILL">TV will turn off in</string>
+    <string name="TV_STRING_AFTER_CLOSE">seconds</string>
+    <string name="TV_STRING_ANYKEY_CANCELCLOSE">press any key to cancel.</string>
+    <string name="TV_STRING_ENTER_SEARCH">"press 'Confirm' to start tune channel."</string>
+    <string name="TV_STRING_AUTO_GET_EPG">Auto get EPG information</string>
+    <string name="TV_STRING_PLEASE_CONNECT_NETWORK">Please connect network</string>
+    <string name="TV_STRING_HAVE_NO_PROGRAM">Have no program</string>
+    <string name="TV_STRING_SIGNALSEARCHING">Signal Searching...</string>
+    <string name="TV_STRING_IPLIVE_RESOURCE_LIST">Iplive Resource list</string>
+    <string name="TV_STRING_IPLIVE_RESOURCE">Iplive resource</string>
+    <string name="KTC_CFG_TV_COLLECT_CHANNEL">Collect</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE">Display Mode</string>
+    <string name="KTC_CFG_TV_SOUND_MODE">Sound Mode</string>
+    <string name="KTC_CFG_INTELLIGENT_IR_MODE">Intelligent</string>
+    <string name="KTC_CFG_TV_CHANNEL_SETTING">Channel Setting</string>
+    <string name="KTC_CFG_TV_ATV_SEARCH_CHANNEL">Search Channel</string>
+    <string name="KTC_CFG_TV_ATV_CHANNEL_EDIT">Channel Edit</string>
+    <string name="KTC_CFG_TV_DVBC_SEARCH_CHANNEL">Search Channel</string>
+    <string name="KTC_CFG_TV_DTMB_SEARCH_CHANNEL">Search Channel</string>
+    <string name="KTC_CFG_TV_DTMB_CHANNEL_EDIT">Channel Edit</string>
+    <string name="KTC_CFG_TV_ATV_AUTO_SEARCH">Auto Search</string>
+    <string name="KTC_CFG_TV_DBC_NIT_SEARCH">FullChannel Search</string>
+    <string name="KTC_CFG_TV_ATV_MANUAL_SEARCH">Manual Search</string>
+    <string name="KTC_CFG_TV_ATV_FREQ_FINE">Freq Fine</string>
+    <string name="KTC_CFG_TV_ATV_COLOR_SYSTEM">Color System</string>
+    <string name="KTC_CFG_TV_ATV_SOUND_SYSTEM">Sound System</string>
+    <string name="KTC_CFG_TV_AV_COLOR_SYSTEM">Color System</string>
+    <string name="KTC_CFG_TV_DTV_SOUND_CHANNEL">Sound Channel</string>
+    <string name="KTC_CFG_TV_DTV_SOUND_TRACK">Sound Track</string>
+    <string name="KTC_CFG_TV_DTV_SUBTITLE">Subtitle</string>
+    <string name="KTC_CFG_TV_DVBC_REGION_RESET">Region Reset</string>
+    <string name="KTC_CFG_TV_DVBC_CA_SETTING">CA Setting</string>
+    <string name="KTC_CFG_TV_DVBC_OPEN_GUIDE">Open Guide</string>
+    <string name="KTC_CFG_TV_DVBC_CLOSE_GUIDE">Close Guide</string>
+    <string name="KTC_CFG_TV_DTMB_CHANNEL_INFO">Channel Info</string>
+    <string name="KTC_CFG_TV_DTMB_FAVORITE_CHANNEL">Collect Channel</string>
+    <string name="KTC_CFG_TV_DTMB_DTV_INFO">DTV Info</string>
+    <string name="KTC_CFG_TV_DVBC_CHANNEL_INFO">Channel Info</string>
+    <string name="KTC_CFG_TV_DVBC_DTV_INFO">DTV Info</string>
+    <string name="KTC_CFG_TV_DVBC_SERVICE">Service</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE_AUTO">Auto</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE_4_3">4 : 3</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE_16_9">16 : 9</string>
+    <string name="KTC_CFG_TV_VIDEO_DISPLAY_MODE_DEFAULT">Auto</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE_MOVIE">Movie</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE_CAPTION">Subtitle</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE_PANORAMA">Panorama</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE_PERSON">Person</string>
+    <string name="KTC_CFG_TVSDK_DISPLAY_MODE_AUTO">Auto</string>
+    <string name="KTC_CFG_TVSDK_DISPLAY_MODE_4_3">4 : 3</string>
+    <string name="KTC_CFG_TVSDK_DISPLAY_MODE_16_9">16 : 9</string>
+    <string name="KTC_CFG_TVSDK_DISPLAY_MODE_MOVIE">Movie</string>
+    <string name="KTC_CFG_TVSDK_DISPLAY_MODE_CAPTION">Subtitle</string>
+    <string name="KTC_CFG_TVSDK_DISPLAY_MODE_PANORAMA">Panorama</string>
+    <string name="KTC_CFG_TVSDK_DISPLAY_MODE_PERSON">Person</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE">Image Mode</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_VIVID">Vivid</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_GENTLE">Gentle</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_USER">Custom</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_STANDARD">Standard</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_4K_CINEMA">4K cinema</string>
+    <string name="KTC_CFG_TV_SOUND_SPDIF">SPDIF</string>
+    <string name="KTC_CFG_TV_SOUND_SPDIF_SOURCE">SOURCE OUTPUT</string>
+    <string name="KTC_CFG_TV_SOUND_SPDIF_PCM">PCM</string>
+    <string name="KTC_CFG_TV_SOUND_SEPERATE">Audio Only</string>
+    <string name="KTC_CFG_TV_SOUND_MODE_STANDARD">Standard</string>
+    <string name="KTC_CFG_TV_SOUND_MODE_NEWS">News</string>
+    <string name="KTC_CFG_TV_SOUND_MODE_MUSIC">Music</string>
+    <string name="KTC_CFG_TV_SOUND_MODE_MOVIE">Movie</string>
+    <string name="KTC_CFG_TV_SOUND_MODE_3D_MOVIE_EFFECT">4K Effect</string>
+    <string name="KTC_CFG_TV_SOUND_MODE_USER">Custom</string>
+    <string name="KTC_CFG_TV_CHANNEL_COLLECT">Collect</string>
+    <string name="KTC_CFG_TV_CHANNEL_COLLECT_CANCEL">Collect Cancel</string>
+    <string name="KTC_TV_NO_EPGINFO">no epginfo</string>
+    <string name="KTC_CFG_TV_INTERACTION_SWITCH">InteractionSwitch</string>
+    <string name="KTC_CFG_TV_INTERACTION_SWITCH_OPEN">Open</string>
+    <string name="KTC_CFG_TV_INTERACTION_SWITCH_CLOSE">Close</string>
+    <string name="KTC_CFG_TV_NO_CHANNEL_COLLECT">No channel</string>
+    <string name="KTC_CFG_TV_SYSTEM_DEMO">Demo</string>
+    <string name="KTC_CFG_TV_4K_IMAGE_DEMO">4K image</string>
+    <string name="KTC_CFG_TV_PANEL_COLOR_DEMO">Panel color</string>
+    <string name="KTC_CFG_TV_LOCAL_DIMMING_DEMO">Dimming</string>
+    <string name="KTC_CFG_TV_3D_SET">3D</string>
+    <string name="KTC_CFG_TV_CHANNEL_SORT">Channel Sort</string>
+    <string name="KTC_CFG_TV_CHANNEL_DELET">Channel Del</string>
+    <string name="KTC_CFG_TV_CHANNEL_DELET_HAVE">Deleted Channel</string>
+    <string name="KTC_CFG_TV_VGA_AUTO_ADJUST">Auto Adjust</string>
+    <string name="USER_COLLECT_SUCCESS">Collect successful!</string>
+    <string name="USER_COLLECT_FAILED">Sorry, collect failed!</string>
+    <string name="USER_UNCOLLECT_SUCCESS">Cancel collect successful!</string>
+    <string name="USER_UNCOLLECT_FAILED">>Sorry, cancel collect failed!</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_GAME">Game</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_DOLBY_VISION_MOVIE_DARK">DOLBY Dark</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_DOLBY_VISION_MOVIE_BRIGHT">DOLBY Bright</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_PROFESSIONAL">Professional</string>
+    <string name="KTC_LOCATION_SET">Location Setting</string>
+    <string name="China">China</string>
+    <string name="location_from_ip_tip">Requested location by Ip:</string>
+    <string name="location_last_config_tip">Last saved location:</string>
+    <string name="location_get_failed">Failed to request location:</string>
+    <string name="location_not_set">Location not set yet</string>
+    <string name="location_manual_set">Manual set:</string>
+    <string name="KTC_DVBC_CAREGION_REBOOT">"      Reset will erase digital TV important data and restart the system
+    digital TV also need to reconfigure.Do you need to reset?"</string>
+    <string name="KTC_DVBC_REBOOT_YESORNOT">Warning</string>
+    <string name="KTC_DVBC_REBOOT_OK">Reset</string>
+    <string name="KTC_DVBC_REBOOT_CANCEL">Cancel</string>
+    <string name="deletetitle">Whether to delete【</string>
+    <string name="delete_brackets">】?</string>
+    <string name="deletesubtitle">Can be found in the deleted channel</string>
+    <string name="channelAudioFormatNotSupported">channel AudioFormat NotSupported</string>
+    <string name="enterstbmode">Remote control STB,please close [Menu-Intelligent]</string>
+    <string name="open_tv_guide">Guide has opened</string>
+    <string name="close_tv_guide">Guide has closed</string>
+    <string name="TVEXIT_REMIND">Press back key again to exit TV</string>
+    <string name="TVEXITING_REMIND">is Exiting TV...</string>
+    <string name="TV_SIGNALFORMAT_NOTSUPPORTED">current signal format Not Supported</string>
+    <string name="TV_VGAAUTOADJUST_SUCCESS">VGA AutoAdjust Success</string>
+    <string name="TV_VGAAUTOADJUST_FAIL">VGA AutoAdjust Error</string>
+    <string name="band_width">Band Width</string>
+    <string name="module_mode">Module Mode</string>
+    <string name="program_tv">TV</string>
+    <string name="program_radio">Radio</string>
+    <string name="program_others">Other</string>
+    <string name="channel_setting">Channel Setting</string>
+    <string name="enter">Enter</string>
+    <string name="frequency">Frequency</string>
+    <string name="channel_count">Channel Count</string>
+    <string name="back_hint">Press Back to exit</string>
+    <string name="video_vod">Video Vod</string>
+    <string name="main_frequencypoint">Main Frequency Point</string>
+    <string name="loader_frequencypoint">Loader Frequency</string>
+    <string name="start_search">Start Search</string>
+    <string name="confirm">Confirm</string>
+    <string name="city_setting">City Setting</string>
+    <string name="switch_city">Swtich City</string>
+    <string name="KTC_SEARCH">Search</string>
+    <string name="KTC_H_DIRECTION_KEY">Move the Cursor to Left/Right</string>
+    <string name="KTC_V_DIRECTION_KEY">Move the Cursor to Up/Down</string>
+    <string name="KTC_DELETE">Delete</string>
+    <string name="KTC_SHUTTLE_ROTATE">Rotate Shuttle to Choose</string>
+    <string name="KTC_SEARCH_LEFTKEY">Press Left to Delete</string>
+    <string name="KTC_SEARCH_TEXT">Search by Initial Pinyin</string>
+    <!-- for ci+ op -->
+    <string name="str_ciplus_op_confirmation_title">Confirm CI+ OP Refresh</string>
+    <string name="str_ciplus_op_refresh">Do you allow TV to do operator profile refresh?</string>
+    <string name="str_op_menu_title">Operator Profiles Menu</string>
+    <string name="str_op_channel_list_title">OP Channel List</string>
+    <string name="str_op_menu">OP Menu</string>
+    <string name="str_op_forbid_channel_tuning_content">Forbid to do channel tune under OP mode.\nPlease exit OP mode at first.</string>
+    <string name="str_enter_op">Enter OP</string>
+    <string name="str_exit_op">Exit OP</string>
+    <string name="str_delete_profile">Delete Profile</string>
+    <string name="str_delete_op_msg">Are you sure to delete the operator profile [</string>
+    <string name="str_delete_op_confirm">Confirm to delete OP</string>
+    <string name="str_forbid_channel_tuning">Forbid Channel Tuning</string>
+    <string name="str_cam_upgrade_alarm">CAM is under upgrading.\nPlease try later...</string>
+    <string name="str_op_tuning_alarm">OP is tuning.\nPlease try later...</string>
+
+    <!-- for audio language list -->
+    <string name="str_audio_language_title">Sound Channel</string>
+    <!-- for cimmi -->
+    <string name="str_cimmi_title">CIMMI</string>
+    <string name="str_cimmi_hint_ci_inserted">CI INSERTED</string>
+    <string name="str_cimmi_hint_ci_removed">CI REMOVED</string>
+    <string name="str_cimmi_hint_ci_auto_test">CI AUTOTEST</string>
+    <string name="str_cimmi_hint_ci_passwd_hint">INPUT PASSWORD</string>
+    <!-- for current action -->
+    <string name="str_current_action">loading</string>
+    <string name="str_pvr_file_system_select_disk">Select Disk</string>
+    <string name="volume">Volume</string>
+    <string name="picture">Picture Mode</string>
+    <string name="sound">Sound Mode</string>
+    <string name="zoom">Zoom Mode</string>
+    <string name="str_root_alert_dialog_title">Tip</string>
+    <string name="str_root_alert_dialog_message">Do you want to exit TV system?</string>
+    <string name="str_root_alert_dialog_confirm">OK</string>
+    <string name="str_root_alert_dialog_cancel">Cancel</string>
+    <string name="str_root_alert_dialog_message_restore_to_default">Are you sure to restore to default?</string>
+    <string name="str_stop_playback_dialog_message">System will stop playback if user want to channel change</string>
+    <string name="str_stop_playback_dialog_title">STOP PLAYBACKING</string>
+    <string name="str_stop_record_playback_dialog_message">System will stop record and playback if user want to channel change</string>
+    <string name="str_cha_tv_route_none">NONE</string>
+    <string name="str_cha_tv_route_dvbt">Air</string>
+    <string name="str_cha_tv_route_dvbc">Cable</string>
+    <string name="str_cha_tv_route_dvbs">Satellite</string>
+    <string name="str_cha_tv_route_dvbt2">Air</string>
+    <string name="str_cha_tv_route_dvbs2">Satellite</string>
+    <string name="str_cha_tv_route_dtmb">DTMB</string>
+    <string name="str_cha_tv_route_unknown">Unknown</string>
+    <string name="str_time_change_timezone">Timezone automatic updated</string>
+    <string name="str_setting_sleep_mode_remin_min">Min</string>
+    <string name="str_signalhear">To save energy,the TV will switch off the screen.To watch tv again,press a key on the remote control.</string>
+    <!-- for Channel -->
+
+    <string name="str_cha_antannatype">Antenna Type</string>
+    <string name="str_cha_antannatype_air">Air</string>
+    <string name="str_cha_antannatype_cable">Cable</string>
+    <string name="str_cha_antannatype_none">None</string>
+
+    <string-array name="guidance_list_default_string">
+        <item>OFF</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="guidance_list_singapore_string">
+        <item>OFF</item>
+        <item>G</item>
+        <item>PG</item>
+        <item>PG13</item>
+        <item>NC16</item>
+        <item>M18</item>
+        <item>R21</item>
+    </string-array>
+
+    <string-array name="guidance_list_australian_string">
+        <item>OFF</item>
+        <item>Block All</item>
+        <item>P</item>
+        <item>C</item>
+        <item>G</item>
+        <item>PG</item>
+        <item>M</item>
+        <item>MA15+</item>
+        <item>AV15+</item>
+        <item>R</item>
+    </string-array>
+    <string-array name="str_arr_setting_audio_type_iso_text">
+        <item></item>
+        <item>C.E</item>
+        <item>H.I.</item>
+        <item>V.I.</item>
+    </string-array>
+
+    <!-- for Audio Info AAC Profile And Level -->
+    <string name="aac_level1">AAC L1</string>
+    <string name="aac_level2">AAC L2</string>
+    <string name="aac_level4">AAC L4</string>
+    <string name="aac_level5">AAC L5</string>
+    <string name="he_aac_level2">HE-AAC L2</string>
+    <string name="he_aac_level3">HE-AAC L3</string>
+    <string name="he_aac_level4">HE-AAC L4</string>
+    <string name="he_aac_level5">HE-AAC L5</string>
+
+    <string name="audio_type_mpeg">MPEG</string>
+    <string name="audio_type_dolby_d">Dolby D</string>
+    <string name="audio_type_aac">AAC</string>
+    <string name="audio_type_ac3p">AC3P</string>
+    <string name="audio_type_dra1">DRA1</string>
+
+    <string name="str_disk_too_slow">Disk Speed is too low</string>
+    <string name="str_null"></string>
+
+    <string name="str_option_caption">Caption</string>
+    <string-array name="str_arr_option_closed_caption">
+        <item>OFF</item>
+        <item>ON</item>
+        <item>ON When Muted</item>
+        <item>CC1</item>
+        <item>CC2</item>
+        <item>CC3</item>
+        <item>CC4</item>
+        <item>TEXT1</item>
+        <item>TEXT2</item>
+        <item>TEXT3</item>
+        <item>TEXT4</item>
+    </string-array>
+
+    <!-- For screen mode hint msg -->
+    <string name="str_invalid_service">INVALID SERVICE</string>
+    <string name="str_no_ci_module">NO CI MODULE</string>
+    <string name="str_ci_plus_authentication">CI+ AUTHENTICATION</string>
+    <string name="str_scrambled_program">SCRAMBLED PROGRAM</string>
+    <string name="str_program_block">PROGRAM BLOCK</string>
+    <string name="str_parental_block">PARENTAL BLOCK</string>
+    <string name="str_channel_block">CHANNEL BLOCK</string>
+    <string name="str_audio_only">AUDIO ONLY</string>
+    <string name="str_data_only">DATA ONLY</string>
+    <string name="str_common_video">COMMON VIDEO</string>
+    <string name="str_unsupported">UNSUPPORTED</string>
+    <string name="str_no_channel_banner">NO CHANNEL</string>
+    <string name="str_invalid_pmt">INVALID PMT</string>
+    <string name="str_no_signal">NO SIGNAL</string>
+
+    <!-- For Picture -->
+    <string name="str_auto_adjust">Auto Adjust</string>
+    <string name="str_pic_picture_adjustment">Imageadjust</string>
+    <string name="str_pic_picture">Picture</string>
+    <string name="str_pic_picturemode">Picture Mode</string>
+
+    <string name="str_wait_moment">Wait for a moment please!</string>
+    <string name="str_updating_edid">Updating AMP information...</string>
+
+    <string name="input_password_hint">Please enter password</string>
+    <string name="password_incorrect_hint">Please enter the correct password</string>
+
+    <string name="atv_search_channel">ATV Channel</string>
+    <string name="dtv_search_channel">DTV Channel</string>
+    <string name="str_cha_tuningprogress_uhf">UHF</string>
+    <string name="str_cha_tuningprogress_vhf">VHF</string>
+
+    <string name="str_cha_dtv_frqwidth">8M</string>
+
+
+    <string name="str_cha_dtvautotuning_frequency">Frequency</string>
+    <string name="str_cha_dtvautotuning_modulation">Modulation</string>
+    <string name="str_cha_dtvautotuning_symbol">Symbol Rate</string>
+    <string name="str_cha_dtvautotuning_signalstrength">Signal Strength</string>
+    <string name="str_cha_dtvautotuning_signalquality">Signal Quality</string>
+    <string name="str_cha_radio">RADIO :</string>
+    <string name="str_cha_data">DATA :</string>
+    <string name="str_cha_program">Programmes</string>
+    <string name="str_cha_tuningprogress_percent_0">0%</string>
+    <string name="str_cha_tuningprogress_ch">CH</string>
+    <string name="str_cha_tuningprogress_dtv">DTV</string>
+    <string name="str_cha_exittuning_info">Are you sure to exit TV tuning?</string>
+    <string name="str_cha_exitDTVtuning_info">Are you sure to exit DTV tuning? </string>
+    <string name="str_cha_exitATVtuning_info">Are you sure to exit ATV tuning? </string>
+    <string name="str_cha_exittuning_yes">YES</string>
+    <string name="str_cha_exittuning_no">NO</string>
+    <string name="str_cha_dtvmanualtuning_channelno">Channel</string>
+    <string name="str_cha_dtvmanualtuning_ch">CH</string>
+    <string name="str_cha_dtvmanualtuning_ch_1">1</string>
+    <string name="str_cha_dtvmanualtuning_modulation_64qam">64QAM</string>
+    <string name="str_cha_dtvmanualtuning_frequency">Frequency</string>
+    <string name="str_cha_dtvmanualtuning_modulation">Modulation</string>
+    <string name="str_cha_dtvmanualtuning_symbol">Symbol Rate</string>
+    <string name="str_cha_dtvmanualtuning_starttuning">Search</string>
+    <string name="str_cha_dtvmanualtuning_signalstrength">Signal Strength</string>
+    <string name="str_cha_dtvmanualtuning_signalquality">Signal Quality</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_dtv">DTV:</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_0">0</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_radio">RADIO:</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_data">DATA:</string>
+    <string name="str_cha_atvmanualtuning_channelno">Channel</string>
+    <string name="str_cha_atvmanualtuning_ch">CH</string>
+    <string name="str_cha_atvmanualtuning_channel_1">1</string>
+    <string name="str_cha_atvmanualtuning_colorsystem">Color System</string>
+    <string name="str_cha_atvmanualtuning_colorsystem_Auto">Auto</string>
+    <string name="str_cha_atvmanualtuning_soundsystem">Sound System</string>
+    <string name="str_cha_atvmanualtuning_soundsystem_Auto">Auto</string>
+    <string name="str_cha_atvmanualtuning_starttuning">Search</string>
+    <string name="str_cha_atvmanualtuning_starttuning_state">Search... ...</string>
+    <string name="str_cha_atvmanualtuning_starttuning_state_reminder"> Press left or right or ok search</string>
+    <string name="str_cha_atvmanualtuning_frequency">Frequency :</string>
+    <string name="str_cha_atvmanualtuning_frequency_427">427</string>
+    <string name="str_cha_atvmanualtuning_frequency_mhz">MHz</string>
+    <string name="str_cha_atvmanualtuning_frequency_khz">KHz</string>
+
+    <string name="str_cha_channel">Channel</string>
+    <string name="str_cha_autotuning">Auto Tuning</string>
+    <string name="str_cha_manualtuning">Manual Tuning</string>
+    <string name="str_cha_dtvmanualtuning">DTV Manual Tuning</string>
+    <string name="str_cha_atvmanualtuning">ATV Manual Tuning</string>
+    <string name="str_cha_programedit">Program Edit</string>
+    <string name="str_cha_signalinfo">Signal Information</string>
+    <string name="str_cha_ciinformation">CI Information</string>
+    <string name="str_cha_software_update_oad">Software Update (OAD)</string>
+    <string name="str_cha_time_to_search_for_ssu">Time to Search for SSU</string>
+    <string name="str_cha_time_to_search_for_ssu_default">4:00</string>
+    <string name="str_cha_oadscan">OAD Scan</string>
+    <string name="str_cha_oad_view_prompt">View Prompt to Update</string>
+    <string name="str_mainmenu_menu">Menu</string>
+    <string name="str_cha_autotuning_tuningtype">Search Type</string>
+    <string name="str_cha_autotuning_tuningtype_atv">模拟电视</string>
+    <string name="str_menu_operating_move">Move</string>
+    <string name="str_menu_operating_select">Select</string>
+    <string name="str_menu_operating_switch">Switch</string>
+    <string name="str_menu_operating_exit">Exit</string>
+    <string name="str_menu_operating_cancel">Cancel</string>
+    <string name="str_menu_operating_adjust">Adjust</string>
+    <string name="str_menu_operating_ok">OK/Source:</string>
+    <string name="str_menu_operating_menu">/Menu:</string>
+    <string name="enter_old_pwd">Please enter old password</string>
+    <string name="enter_check_pwd">Please enter password</string>
+    <string name="prg_edit_skip_header">1:</string>
+    <string name="prg_edit_edit_header">2:</string>
+    <string name="prg_edit_favorite_header">3:</string>
+    <string name="prg_edit_delete_header">4:</string>
+    <string name="prg_edit_move_header">5:</string>
+    <string name="enter_new_pwd">Please enter new password</string>
+    <string name="confirm_new_pwd">Please confirm new password</string>
+    <string name="block_program_title">Block Program</string>
+    <string name="str_cha_softwareupdate">Software Update(USB)</string>
+    <string name="softupdate_info">Please insert the USB storage device which has the correct firmware file in it, and select “start” for upgrade.</string>
+    <string name="str_reboot_wait">Rebooting! Please Wait...</string>
+    <string-array name="str_arr_dtvmanualtuning_lnbtype_vals">
+        <item>C</item>
+        <item>Ku</item>
+    </string-array>
+    <!-- for box only -->
+    <string name="wait_for_tuning_hint">"Please wait for tunning..."</string>
+    <string name="str_pic_xvycc">xvYCC</string>
+
+    <!-- For channel control -->
+    <string name="str_channelcontrol_scan">SCANNING</string>
+    <string name="str_channelcontrol_channels">CHANNELS:</string>
+    <string name="str_channelcontrol_notfound">Channel not found</string>
+    <string name="str_channelcontrol_done">DONE</string>
+
+    <string name="str_channelList_favorite">Favorite List</string>
+    <string name="str_channelList_program">Channel List</string>
+
+    <!-- For sound format info -->
+    <string name="str_sound_format_mono">MONO</string>
+    <string name="str_sound_format_dual_a">DUAL A</string>
+    <string name="str_sound_format_dual_ab">DUAL AB</string>
+    <string name="str_sound_format_dual_b">DUAL B</string>
+    <string name="str_sound_format_forced_mono">MONO</string>
+    <string name="str_sound_format_g_stereo">STEREO</string>
+    <string name="str_sound_format_hidev_mono">MONO</string>
+    <string name="str_sound_format_unknown">UNKNOWN</string>
+    <string name="str_sound_format_k_stereo">STEREO</string>
+    <string name="str_sound_format_left_left">LEFT LEFT</string>
+    <string name="str_sound_format_left_right">LEFT RIGHT</string>
+    <string name="str_sound_format_mono_sap">MONO SAP</string>
+    <string name="str_sound_format_nicam_dual_a">NICAM DUAL A</string>
+    <string name="str_sound_format_nicam_dual_ab">NICAM DUAL AB</string>
+    <string name="str_sound_format_nicam_dual_b">NICAM DUAL B</string>
+    <string name="str_sound_format_nicam_mono">NICAM MONO</string>
+    <string name="str_sound_format_nicam_stereo">NICAM STEREO</string>
+    <string name="str_sound_format_right_right">RIGHT RIGHT</string>
+    <string name="str_sound_format_stereo_sap">STEREO SAP</string>
+
+    <string name="str_sourceinfo_TV">TV</string>
+    <!-- nathan.liao 2015.03.03 add for T4C1 board start -->
+    <string name="str_sourceinfo_CVBS">AV</string>
+    <!-- nathan.liao 2015.03.03 add for T4C1 board end -->
+    <string name="str_sourceinfo_CVBS1">AV</string>
+    <string name="str_sourceinfo_CVBS2">AV2</string>
+    <string name="str_sourceinfo_YPBPR">YPBPR</string>
+    <string name="str_sourceinfo_VGA">VGA</string>
+
+    <string name="program_skip_str">Skip</string>
+    <string name="program_edit_str">Edit</string>
+    <string name="program_favorite_str">FAV</string>
+    <string name="program_delete_str">Delete</string>
+    <string name="program_move_str">Move</string>
+
+    <string name="str_program_edit_dialog_ok">ok</string>
+    <string name="str_program_edit_dialog_cancel">cancel</string>
+    <string name="str_program_edit_dialog_input">please input</string>
+    <string name="str_no_sinal">No Signal</string>
+    <string name="program_guide_time">Program Guide:Time</string>
+
+    <string name="search_atv_auto_exit">Are you sure you want to exit ATV Auto Search?</string>
+    <string name="search_now_auto_exit">Do you leave now?</string>
+    <string name="search_dtv_auto_exit">Are you sure you want to exit DTV Auto Search?</string>
+    <string name="SKY_CFG_TV_CHANNEL_SORT">Channel Sort</string>
+    <string name="SKY_CFG_TV_CHANNEL_DELET">Channel Del</string>
+    <string name="SKY_CFG_TV_CHANNEL_DELET_HAVE">Deleted Channel</string>
+    <string name="menu_back">返回</string>
+    <string name="menu_symbol_colon">:</string>
+    <string name="menu_exit">Exit</string>
+    <string name="tv_string_dtv_channel_id">Channel Id</string>
+    <string name="tv_string_dtv_channel_name">Channel Name</string>
+    <string name="tv_string_dtv_sigfrequency">Signal frequency</string>
+    <string name="tv_string_dtv_soundformat">Sound format</string>
+    <string name="tv_string_dtv_imagformat">Image format</string>
+    <string name="tv_string_dtv_sigintensity">Signal intensity</string>
+    <string name="tv_string_dtv_sigquality">Signal quality</string>
+
+    <string name="str_tvsetting_auto_adjust">Auto adjust</string>
+    <string name="str_tvsetting_soundMode_null">No analog stereo</string>
+    <string name="str_tvsetting_subtitleLanguage_close">Close</string>
+    <string name="str_tvsetting_subtitleLanguage_null">No subtitle language</string>
+    <string-array name="str_arr_subtitle_constants">
+        <item>E_CZECH</item>
+        <item>E_DANISH</item>
+        <item>E_GERMAN</item>
+        <item>E_ENGLISH</item>
+        <item>E_SPANISH</item>
+        <item>E_GREEK</item>
+        <item>E_FRENCH</item>
+        <item>E_CROATIAN</item>
+        <item>E_ITALIAN</item>
+        <item>E_HUNGARIAN</item>
+        <item>E_DUTCH</item>
+        <item>E_NORWEGIAN</item>
+        <item>E_POLISH</item>
+        <item>E_PORTUGUESE</item>
+        <item>E_RUSSIAN</item>
+        <item>E_MONGOLIAN</item>
+        <item>E_INDONESIAN</item>
+        <item>E_THAI</item>
+        <item>E_PERSIAN</item>
+        <item>E_ARABIC</item>
+        <item>E_HEBREW</item>
+        <item>E_ROMANIAN</item>
+        <item>E_SLOVENIAN</item>
+        <item>E_SERBIAN</item>
+        <item>E_FINNISH</item>
+        <item>E_SWEDISH</item>
+        <item>E_BULGARIAN</item>
+        <item>E_WELSH</item>
+        <item>E_CHINESE</item>
+        <item>E_IRISH</item>
+        <item>E_KOREAN</item>
+        <item>E_JAPANESE</item>
+        <item>E_HINDI</item>
+        <item>E_MAORI</item>
+        <item>E_MANDARIN</item>
+        <item>E_CANTONESE</item>
+        <item>E_TURKISH</item>
+        <item>E_GAELIC</item>
+    </string-array>
+
+    <string-array name="str_array_language_dtmb">
+    <item>Czech</item>
+    <item>Danish</item>
+    <item>German</item>
+    <item>English</item>
+    <item>Spanish</item>
+    <item>Greek</item>
+    <item>French</item>
+    <item>Croatian</item>
+    <item>Italian</item>
+    <item>Hungarian</item>
+    <item>Dutch</item>
+    <item>Norwegian</item>
+    <item>Polish</item>
+    <item>Portuguese</item>
+    <item>Russian</item>
+    <item>Mongolian</item>
+    <item>Indonesian</item>
+    <item>Thai</item>
+    <item>Persian</item>
+    <item>Arabic</item>
+    <item>Hebrew</item>
+    <item>Romanian</item>
+    <item>Slovenian</item>
+    <item>Serbian</item>
+    <item>Finnish</item>
+    <item>Swedish</item>
+    <item>Bulgarian</item>
+    <item>Welsh</item>
+    <item>Chinese</item>
+        <item>Irish</item>
+        <item>Korean</item>
+        <item>Japanese</item>
+        <item>Hindi</item>
+        <item>Maori</item>
+        <item>Mandarin</item>
+        <item>Cantonese</item>
+        <item>Turkish</item>
+        <item>Gaelic</item>
+    </string-array>
+</resources>

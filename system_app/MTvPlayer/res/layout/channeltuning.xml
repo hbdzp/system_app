@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/auto_mainmenu"
+    android:layout_width="700dip"
+    android:layout_height="400dip"
+    android:layout_gravity="center"
+    android:background="@drawable/ui_sdk_other_page_bg_pe">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/search_title"
+            android:layout_width="180dip"
+            android:layout_height="60dip"
+            android:gravity="center"
+            android:textColor="@color/ff061527"
+            android:text="@string/dtv_search_channel"
+
+            android:textSize="30dip" />
+
+        <ImageView
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ui_sdk_menu_title_line" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dtv_autochannel"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_marginTop="100dip"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="90dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dip"
+                android:layout_height="40dip"
+                android:text="@string/str_tv_program"
+                android:textSize="28sp"
+                android:textColor="@color/ff061527"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:id="@+id/autochannel_dtvchannelnumber"
+                android:layout_width="120dip"
+                android:layout_height="40dip"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="190dip"
+                android:layout_height="40dip"
+                android:text="@string/str_current_frequency"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/autochannel_dtvcurrentfrq"
+                android:layout_width="150dip"
+                android:layout_height="40dip"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="90dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dip"
+                android:layout_height="40dip"
+                android:text="@string/str_radio_program"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/autochannel_dtvradionumber"
+                android:layout_width="120dip"
+                android:layout_height="40dip"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="190dip"
+                android:layout_height="40dip"
+                android:text="@string/str_band"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="150dip"
+                android:layout_height="40dip"
+                android:textColor="@color/ff061527"
+                android:text="@string/str_cha_dtv_frqwidth"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="90dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dip"
+                android:layout_height="40dip"
+                android:text="@string/str_other_program"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/autochannel_dtvdatanumber"
+                android:layout_width="120dip"
+                android:layout_height="40dip"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="120dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="60dip"
+                android:text="@string/search_progress"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp"/>
+            <com.horion.tv.ui.search.ProgressBarCustom
+                android:id="@+id/autochannel_dtvsearchprogressbar"
+                android:layout_width="420dip"
+                android:layout_height="20dip"
+
+                />
+            <TextView
+                android:id="@+id/autochannel_dtvsearchprogressbarvalue"
+                android:layout_width="120dip"
+                android:layout_height="40dip"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--<com.horion.tv.ui.search.ProgressBarCustom
+        android:layout_width="400dip"
+        android:layout_height="20dip"
+        />-->
+
+    <LinearLayout
+        android:id="@+id/atv_autochannel"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_marginTop="100dip"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="70dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="190dip"
+                android:layout_height="40dip"
+                android:text="@string/crt_channel_num"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp"
+                 />
+
+            <TextView
+                android:id="@+id/autochannel_atvchannelnumber"
+                android:layout_width="60dip"
+                android:layout_height="40dip"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="190dip"
+                android:layout_height="40dip"
+                android:text="@string/str_cur_frequency"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/autochannel_atvcurrentfrq"
+                android:layout_width="170dip"
+                android:layout_height="40dip"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="70dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dip"
+                android:layout_height="40dip"
+                android:visibility="invisible"
+                android:text="@string/str_radio_program"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/autochannel_atvradionumber"
+                android:layout_width="120dip"
+                android:layout_height="40dip"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="190dip"
+                android:layout_height="40dip"
+                android:text="@string/frequency_segment"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/autochannel_atvfrqsegment"
+                android:layout_width="150dip"
+                android:layout_height="40dip"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="100dip"
+
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dip"
+                android:layout_height="40dip"
+                android:text="@string/str_other_program"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/autochannel_atvdatanumber"
+                android:layout_width="150dip"
+                android:layout_height="40dip"
+                android:textColor="@color/ff061527"
+                android:textSize="28sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:layout_marginTop="50dip"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="120dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="60dip"
+                android:textColor="@color/ff061527"
+                android:text="@string/search_progress"
+                android:textSize="28sp"/>
+            <com.horion.tv.ui.search.ProgressBarCustom
+                android:id="@+id/autochannel_atvsearchprogressbar"
+                android:layout_width="420dip"
+                android:layout_height="20dip"
+                />
+            <TextView
+                android:id="@+id/autochannel_atvsearchprogressbarvalue"
+                android:layout_width="120dip"
+                android:textColor="@color/ff061527"
+                android:layout_height="40dip"
+                android:textSize="28sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

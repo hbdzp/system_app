@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_title">菜单</string>
+    <string name="dialog_btn_1">确定</string>
+    <string name="dialog_btn_2">取消</string>
+    <string name="app_name">电视</string>
+    <string name="nosignal_needsearch">没有频道，现在开始搜台？</string>
+    <string name="dialog_btn_search">搜台</string>
+    <string name="dialog_btn_searchlater">稍后再说</string>
+    <string name="seconds_will_poweroff">秒后关机</string>
+    <string name="pressOkRestore">按确定键恢复</string>
+    <string name="placetop">置顶</string>
+    <string name="isthefirstchannel">已是第一个频道</string>
+    <string name="isthelastchannel">已是最后一个</string>
+    <string name="restored">已恢复</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="deleteinfo">还没有已删频道哦</string>
+    <string name="nodeleteinfo">最后一个频道不能删除哦</string>
+    <string name="nochannelinfo">还没频道信息哦</string>
+    <string name="noinfotip">以上设置项不能为空</string>
+    <string name="errorinfotip">结束频率不能小于52</string>
+    <string name="search_channel">搜台</string>
+    <string name="atv_search_channel">ATV搜台</string>
+    <string name="dtv_search_channel">DTV搜台</string>
+    <string name="nit_search">全频道搜台</string>
+    <string name="str_tv_program">电视节目</string>
+    <string name="str_cur_frequency">当前频率:</string>
+    <string name="str_radio_program">广播节目</string>
+    <string name="str_rate">符号率:</string>
+    <string name="str_other_program">其他</string>
+    <string name="str_mode">调制方式:</string>
+    <string name="search_progress">搜索进度</string>
+    <string name="signal_quality">信号质量</string>
+    <string name="signal_strength">信号强度</string>
+    <string name="mannual_search">手动搜台</string>
+    <string name="str_begin_frequency">开始频率</string>
+    <string name="str_end_frequency">结束频率</string>
+    <string name="str_mode_name">调制方式</string>
+    <string name="str_start_search">开始搜台</string>
+    <string name="str_rate_name">符号率</string>
+    <string name="str_band_name">带宽</string>
+    <string name="start_frequency">起始频率</string>
+    <string name="end_frequency">结束频率</string>
+    <string name="crt_frequency">当前频率</string>
+    <string name="symbol_rate">符号率</string>
+    <string name="not_empty">不可为空</string>
+    <string name="str_frequencypoint_setting">频点设置</string>
+    <string name="str_video_vod">视频点播</string>
+    <string name="frequencypoint_setting">频点设置</string>
+    <string name="str_main_frequencypoint">主频点</string>
+    <string name="str_loader_frequencypoint">loader频点</string>
+    <string name="str_auto_search">自动搜台</string>
+    <string name="str_manual_search">手动搜台</string>
+    <string name="str_band">带宽:</string>
+    <string name="crt_channel_num">已搜到频道:</string>
+    <string name="str_current_frequency">当前频率:</string>
+    <string name="cur_channel_index">当前频道号:</string>
+    <string name="frequency_adjust">频率微调</string>
+    <string name="auto_search">自动搜台</string>
+    <string name="frequency_segment">频段:</string>
+    <string name="channel_info">频道信息</string>
+    <string name="app_epg_name">EPG</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Sytem_STARTUP_ING">系统准备中</string>
+    <string name="DTV_STARTUP_ING">数字电视启动中</string>
+    <string name="SOURCE_ATV">模拟电视</string>
+    <string name="SOURCE_DVBC">有线数字</string>
+    <string name="SOURCE_DTMB">地面数字</string>
+    <string name="SOURCE_AV">视频</string>
+    <string name="SOURCE_HDMI">HDMI</string>
+    <string name="SOURCE_VGA">电脑</string>
+    <string name="SOURCE_YUV">分量</string>
+    <string name="SOURCE_IPLIVE">IP直播</string>
+    <string name="SOURCE_REMEMBER">记忆</string>
+    <string name="SOURCE_VOD">回看</string>
+    <string name="SOURCE_DEFAULT">通道</string>
+    <string name="DTV_DVBC_RADIO_INFO">广播节目</string>
+    <string name="category_all">全部</string>
+    <string name="category_cctv">央视</string>
+    <string name="category_hd">高清</string>
+    <string name="category_startv">卫视</string>
+    <string name="category_other">其他</string>
+    <string name="category_collect">收藏</string>
+    <string name="atvchannel">模拟电视</string>
+    <string name="currentchannel">播放中</string>
+    <string name="DVN_CA_STRING_PAIR_TITLE">天柏密码验证</string>
+    <string name="DVN_CA_STRING_PAIR_ID">ID:</string>
+    <string name="DVN_CA_STRING_PAIR_PWD">密码 :</string>
+    <string name="DVN_CA_STRING_PAIR_BUTTON_ENTER">确定</string>
+    <string name="DVN_CA_STRING_PWD_NOTIFY_LEN">请输入8位密码</string>
+    <string name="dvnca_card_Change_Token_info">给当前卡充值:</string>
+    <string name="dvnca_card_detuct_token_info">从当前卡余额中扣除:</string>
+    <string name="dvnca_urgency_broadcast">正在进行应急广播</string>
+    <string name="ca_urgency_broadcast">频道锁定</string>
+    <string name="DTV_CASETTING_FORCE_REBOOT">系统重启中...</string>
+    <string name="dvnca_do_card_pair">是否进行机卡配对</string>
+    <string name="dvnca_tips_insert_right_card">请插入有效智能卡！</string>
+    <string name="dvnca_confirm_pair">配对</string>
+    <string name="dvnca_confirm_back">返回</string>
+    <string name="dvnca_card_pair_pairing_start">开始机卡配对...</string>
+    <string name="dvnca_card_pair_system_pairing">机卡配对中...</string>
+    <string name="dvnca_manu_pair_fail">配对失败.</string>
+    <string name="dvnca_card_pair_complete">配对完成!</string>
+    <string name="dvnca_get_emm_timemout">获取EMM数据超时</string>
+    <string name="dvnca_not_receive_cat">CAT没有收到</string>
+    <string name="save">保存</string>
+    <string name="vod_no_net">网络未连接</string>
+    <string name="TV_STRING_ATV_CHANNEL">模拟电视</string>
+    <string name="TV_STRING_SETTING">设置</string>
+    <string name="TV_STRING_VOLUME_COMPENSATION">音量补偿</string>
+    <string name="TV_STRING_CHANNEL_INFO">频道信息</string>
+    <string name="TV_STRING_CACARD_INFO">CA卡信息</string>
+    <string name="TV_STRING_DTV_INFO">DTV 信息</string>
+    <string name="TV_STRING_DTV_CASETTING">CA 设置</string>
+    <string name="TV_STRING_IRDETOEMM_INFO">EMM 信息</string>
+    <string name="TV_STRING_IRDETOECM_INFO">ECM 信息</string>
+    <string name="TV_STRING_PAL">PAL</string>
+    <string name="TV_STRING_NTSC">NTSC</string>
+    <string name="TV_STRING_PAL_BGHI">PAL_BGHI</string>
+    <string name="TV_STRING_NTSC_M">NTSC_M</string>
+    <string name="TV_STRING_SECAM">SECAM</string>
+    <string name="TV_STRING_NTSC_44">NTSC_44</string>
+    <string name="TV_STRING_PAL_M">PAL_M</string>
+    <string name="TV_STRING_PAL_N">PAL_N</string>
+    <string name="TV_STRING_PAL_60">PAL_60</string>
+    <string name="TV_STRING_NOTSTANDARD">NOTSTANDARD</string>
+    <string name="TV_STRING_AUTO">自动</string>
+    <string name="TV_STRING_I">I</string>
+    <string name="TV_STRING_DK">DK</string>
+    <string name="TV_STRING_BG">BG</string>
+    <string name="TV_STRING_M">M</string>
+    <string name="TV_STRING_L">L</string>
+    <string name="TV_STRING_EPG_TIME_TODAY">今天</string>
+    <string name="TV_STRING_EPG_TIME_TOMORROW">明天</string>
+    <string name="TV_STRING_EPG_TIME_MONDAY">周一</string>
+    <string name="TV_STRING_EPG_TIME_TUESDAY">周二</string>
+    <string name="TV_STRING_EPG_TIME_WEDNESDAY">周三</string>
+    <string name="TV_STRING_EPG_TIME_THURSDAY">周四</string>
+    <string name="TV_STRING_EPG_TIME_FRIDAY">周五</string>
+    <string name="TV_STRING_EPG_TIME_SATURDAY">周六</string>
+    <string name="TV_STRING_EPG_TIME_SUNDAY">周日</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_STATUS">卡状态:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_NUMBER">卡号:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_TYPE">Type:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_VERSION">Version:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_BUILD">Build:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_VARIANT">Variant:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_PATCH_LEVEL">Patch Level:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_OWNER_ID">Owner ID:</string>
+    <string name="TV_STRING_IRDETO_CARDINFO_NATIONALITY">Nationality:</string>
+    <string name="TV_STRING_ATV_CHANNEL_SKIP">跳台</string>
+    <string name="TV_STRING_ATV_FREQUENCY_FINE">频率微调</string>
+    <string name="TV_STRING_ATV_AUDIOMODE_NICAM">丽音选择</string>
+    <string name="TV_STRING_ATV_AUDIOMODE_NICAM_MONO">MONO</string>
+    <string name="TV_STRING_ATV_AUDIOMODE_NICAM_STEREO">STEREO</string>
+    <string name="TV_STRING_ATV_AUDIOMODE_NICAM_DUAL_A">DUAL_A</string>
+    <string name="TV_STRING_ATV_AUDIOMODE_NICAM_DUAL_B">DUAL_B</string>
+    <string name="TV_STRING_ATV_AUDIOMODE_NICAM_DUAL_AB">DUAL_AB</string>
+    <string name="TV_STRING_DTV_NIT_SEARCH">主频点搜台</string>
+    <string name="TV_STRING_DTV_FULL_SEARCH">全频道搜台</string>
+    <string name="TV_STRING_DTV_SERVICE">服务</string>
+    <string name="TV_STRING_DTV_SERVICE_TV">直播</string>
+    <string name="TV_STRING_DTV_SERVICE_BROADCAST">广播</string>
+    <string name="TV_STRING_DTV_SERVICE_VOD">点播</string>
+    <string name="TV_STRING_DTV_SOUNDCHANNEL">声道选择</string>
+    <string name="TV_STRING_DTV_SOUNDTRACK">音轨选择</string>
+    <string name="TV_STRING_DTV_MAIL">邮件管理</string>
+    <string name="TV_STRING_DTV_SWITCHCHANNELMODE">转台模式</string>
+    <string name="TV_STRING_DTV_CASELECTOR">CA选择</string>
+    <string name="TV_STRING_DTV_FREQUENCY_SET">频点设置</string>
+    <string name="TV_STRING_DTV_COLLECT_CHANNEL">收藏</string>
+    <string name="TV_STRING_DTV_CATYPE">CA类型</string>
+    <string name="TV_STRING_DTV_DTVSOFTWARETYPE">DTV类型</string>
+    <string name="TV_STRING_DTV_DTVSOFTWAREVERSION">DTV版本</string>
+    <string name="TV_STRING_DTV_HWVERSION">DTV硬件</string>
+    <string name="TV_STRING_DTV_LDRTYPE">LDR版本</string>
+    <string name="TV_STRING_DTV_RELEASETIME">DTV发布时间</string>
+    <string name="TV_STRING_DTV_SERIALID">DTV序列号</string>
+    <string name="TV_STRING_DTV_USERID">DTV用户</string>
+    <string name="TV_STRING_DTV_AUD_STREAM_TYPE">音频格式</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_MPEG1">MPEG1</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_MPEG">MPEG</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_MP3">MP3</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_AAC">AAC</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_AAC_PLUS">AAC_PLUS</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_AC3">AC3</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_AC3_PLUS">AC3_PLUS</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_AC3_DOLBY">Dolby Audio</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_AC3_PLUS_DOLBY">Dolby Audio</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DTS">DTS</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_LPCM_BLURAY">LPCM_BLURAY</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_PCM">PCM</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_WMA_STD">WMA_STD</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_WMA_PRO">WMA_PRO</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA">DRA</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_COOK">COOK</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_AVS">AVS</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_WAVE">WAVE</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_INVALID">UNKOWN</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA10">DRA 1.0</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA11">DRA 1.1</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA20">DRA 2.0</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA21">DRA 2.1</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA30">DRA 3.0</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA31">DRA 3.1</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA40">DRA 4.0</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA41">DRA 4.1</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA50">DRA 5.0</string>
+    <string name="TV_STRING_AV_AUD_STREAM_TYPE_DRA51">DRA 5.1</string>
+    <string name="TV_STRING_DTV_SOUND_TYPE_LEFT">左声道</string>
+    <string name="TV_STRING_DTV_SOUND_TYPE_RIGHT">右声道</string>
+    <string name="TV_STRING_DTV_SOUND_TYPE_STEREO">立体声</string>
+    <string name="TV_STRING_DTV_SOUND_TYPE_MONO">混合音</string>
+    <string name="TV_STRING_DTV_SOUND_TRACE_1">音轨一</string>
+    <string name="TV_STRING_DTV_SOUND_TRACE_2">音轨二</string>
+    <string name="TV_STRING_DTV_SOUND_TRACE_3">音轨三</string>
+    <string name="TV_STRING_DTV_SOUND_TRACE_4">音轨四</string>
+    <string name="TV_STRING_DTV_SOUND_TRACE_5">音轨五</string>
+    <string name="TV_STRING_DTV_SOUND_TRACE">音频</string>
+    <string name="TV_STRING_DTV_CHANGE_TYPE_MIRROR">静像</string>
+    <string name="TV_STRING_DTV_CHANGE_TYPE_BLANK">黑屏</string>
+    <string name="TV_STRING_DTV_CHANNEL_ID">频道号</string>
+    <string name="TV_STRING_DTV_CHANNEL_NAME">频道名称</string>
+    <string name="TV_STRING_DTV_SOUND_TYPE">声道类型</string>
+    <string name="TV_STRING_DTV_TSID">TSID</string>
+    <string name="TV_STRING_DTV_SERVICEID">ServiceID</string>
+    <string name="TV_STRING_DTV_SRAMBLE">是否加密</string>
+    <string name="TV_STRING_DTV_PCR">PCR</string>
+    <string name="TV_STRING_DTV_VPID">VPID</string>
+    <string name="TV_STRING_DTV_APID">APID</string>
+    <string name="TV_STRING_DTV_PROGRAMID">ProgameID</string>
+    <string name="TV_STRING_DTV_FREQUENCY">频点</string>
+    <string name="TV_STRING_DTV_SYMBOLRATE">符号率</string>
+    <string name="TV_STRING_DTV_MODEL">制式</string>
+    <string name="TV_STRING_DTV_SIGNALQUALITY">信号质量</string>
+    <string name="TV_STRING_DTV_SIGNALBERT">误码率</string>
+    <string name="TV_STRING_INFO">信息</string>
+    <string name="TV_STRING_DTV_NO_CARD">请插入智能卡</string>
+    <string name="TV_STRING_DTV_SUBTITLE">字幕选择</string>
+    <string name="TV_STRING_DTV_SUBTITLE_NO_SUBTITLE">无字幕</string>
+    <string name="TV_STRING_DTV_SUBTITLE_CHANESE_SIMPLIFIED">简体</string>
+    <string name="TV_STRING_DTV_SUBTITLE_CHANESE_TRADITIONAL">繁体</string>
+    <string name="TV_STRING_DTV_SUBTITLE_ENGLISH">英文</string>
+    <string name="TV_STRING_DTV_SUBTITLE_CLOSE_SUBTITLE">字幕关</string>
+    <string name="TV_STRING_VGA_AUTO_ADJUST">自动校正</string>
+    <string name="TV_STRING_VGA_H_POSITION">水平位置</string>
+    <string name="TV_STRING_VGA_V_POSITION">垂直位置</string>
+    <string name="TV_STRING_VGA_PHASE">相位</string>
+    <string name="TV_STRING_VGA_FREQUENCY">频率</string>
+    <string name="TV_STRING_EPG_CHANNEL">频道</string>
+    <string name="TV_STRING_EPG_DATE">日期</string>
+    <string name="TV_STRING_EPG_PROGRAMME">节目单</string>
+    <string name="TV_STRING_EPG_LIVERELATION">相关</string>
+    <string name="TV_STRING_EPG_COLLECT">收藏</string>
+    <string name="TV_STRING_NO_SIGNAL">无信号</string>
+    <string name="TV_STRING_TV_WILL">将于</string>
+    <string name="TV_STRING_AFTER_CLOSE">秒后关闭</string>
+    <string name="TV_STRING_ANYKEY_CANCELCLOSE">按任意键取消关机</string>
+    <string name="TV_STRING_ENTER_SEARCH">按确定键开始搜台</string>
+    <string name="TV_STRING_AUTO_GET_EPG">自动获取EPG信息</string>
+    <string name="TV_STRING_PLEASE_CONNECT_NETWORK">请连接网络</string>
+    <string name="TV_STRING_HAVE_NO_PROGRAM">节目为空</string>
+    <string name="TV_STRING_SIGNALSEARCHING">正在搜索信号...</string>
+    <string name="TV_STRING_IPLIVE_RESOURCE_LIST">直播源列表</string>
+    <string name="TV_STRING_IPLIVE_RESOURCE">直播源</string>
+    <string name="KTC_CFG_TV_COLLECT_CHANNEL">收藏</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE">画面比例</string>
+    <string name="KTC_CFG_TV_SOUND_MODE">声音模式</string>
+    <string name="KTC_CFG_INTELLIGENT_IR_MODE">智控机顶盒</string>
+    <string name="KTC_CFG_TV_CHANNEL_SETTING">频道设置</string>
+    <string name="KTC_CFG_TV_ATV_SEARCH_CHANNEL">搜台</string>
+    <string name="KTC_CFG_TV_ATV_CHANNEL_EDIT">频道编辑</string>
+    <string name="KTC_CFG_TV_DVBC_SEARCH_CHANNEL">搜台</string>
+    <string name="KTC_CFG_TV_DTMB_SEARCH_CHANNEL">搜台</string>
+    <string name="KTC_CFG_TV_DTMB_CHANNEL_EDIT">频道编辑</string>
+    <string name="KTC_CFG_TV_ATV_AUTO_SEARCH">自动搜台</string>
+    <string name="KTC_CFG_TV_DBC_NIT_SEARCH">全频道搜台</string>
+    <string name="KTC_CFG_TV_ATV_MANUAL_SEARCH">手动搜台</string>
+    <string name="KTC_CFG_TV_ATV_FREQ_FINE">频率微调</string>
+    <string name="KTC_CFG_TV_ATV_COLOR_SYSTEM">彩色制式</string>
+    <string name="KTC_CFG_TV_ATV_SOUND_SYSTEM">声音制式</string>
+    <string name="KTC_CFG_TV_AV_COLOR_SYSTEM">彩色制式</string>
+    <string name="KTC_CFG_TV_DTV_SOUND_CHANNEL">声道</string>
+    <string name="KTC_CFG_TV_DTV_SOUND_TRACK">音轨</string>
+    <string name="KTC_CFG_TV_DTV_SUBTITLE">字幕</string>
+    <string name="KTC_CFG_TV_DVBC_REGION_RESET">区域重置</string>
+    <string name="KTC_CFG_TV_DVBC_CA_SETTING">CA设置</string>
+    <string name="KTC_CFG_TV_DVBC_OPEN_GUIDE">打开引导</string>
+    <string name="KTC_CFG_TV_DVBC_CLOSE_GUIDE">关闭引导</string>
+    <string name="KTC_CFG_TV_DTMB_CHANNEL_INFO">频道信息</string>
+    <string name="KTC_CFG_TV_DTMB_FAVORITE_CHANNEL">已收藏频道</string>
+    <string name="KTC_CFG_TV_DTMB_DTV_INFO">DTV信息</string>
+    <string name="KTC_CFG_TV_DVBC_CHANNEL_INFO">频道信息</string>
+    <string name="KTC_CFG_TV_DVBC_DTV_INFO">DTV信息</string>
+    <string name="KTC_CFG_TV_DVBC_SERVICE">服务</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE_AUTO">自动</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE_4_3">4 : 3</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE_16_9">16 : 9</string>
+    <string name="KTC_CFG_TV_VIDEO_DISPLAY_MODE_DEFAULT">自动</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE_MOVIE">电影模式</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE_CAPTION">字幕模式</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE_PANORAMA">全景模式</string>
+    <string name="KTC_CFG_TV_DISPLAY_MODE_PERSON">人物模式</string>
+    <string name="KTC_CFG_TVSDK_DISPLAY_MODE_AUTO">自动</string>
+    <string name="KTC_CFG_TVSDK_DISPLAY_MODE_4_3">4 : 3</string>
+    <string name="KTC_CFG_TVSDK_DISPLAY_MODE_16_9">16 : 9</string>
+    <string name="KTC_CFG_TVSDK_DISPLAY_MODE_MOVIE">电影模式</string>
+    <string name="KTC_CFG_TVSDK_DISPLAY_MODE_CAPTION">字幕模式</string>
+    <string name="KTC_CFG_TVSDK_DISPLAY_MODE_PANORAMA">全景模式</string>
+    <string name="KTC_CFG_TVSDK_DISPLAY_MODE_PERSON">人物模式</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE">图像模式</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_VIVID">亮丽</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_GENTLE">柔和</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_USER">用户</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_STANDARD">标准</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_4K_CINEMA">4K影院</string>
+    <string name="KTC_CFG_TV_SOUND_SPDIF">SPDIF输出</string>
+    <string name="KTC_CFG_TV_SOUND_SPDIF_SOURCE">源码输出</string>
+    <string name="KTC_CFG_TV_SOUND_SPDIF_PCM">PCM</string>
+    <string name="KTC_CFG_TV_SOUND_SEPERATE">单独听</string>
+    <string name="KTC_CFG_TV_SOUND_MODE_STANDARD">标准</string>
+    <string name="KTC_CFG_TV_SOUND_MODE_NEWS">新闻</string>
+    <string name="KTC_CFG_TV_SOUND_MODE_MUSIC">音乐</string>
+    <string name="KTC_CFG_TV_SOUND_MODE_MOVIE">电影</string>
+    <string name="KTC_CFG_TV_SOUND_MODE_3D_MOVIE_EFFECT">4K音效</string>
+    <string name="KTC_CFG_TV_SOUND_MODE_USER">自设</string>
+    <string name="KTC_CFG_TV_CHANNEL_COLLECT">收藏频道</string>
+    <string name="KTC_CFG_TV_CHANNEL_COLLECT_CANCEL">取消收藏</string>
+    <string name="KTC_TV_NO_EPGINFO">无节目信息</string>
+    <string name="KTC_CFG_TV_INTERACTION_SWITCH">互动开关</string>
+    <string name="KTC_CFG_TV_INTERACTION_SWITCH_OPEN">开</string>
+    <string name="KTC_CFG_TV_INTERACTION_SWITCH_CLOSE">关</string>
+    <string name="KTC_CFG_TV_NO_CHANNEL_COLLECT">无频道可收藏</string>
+    <string name="KTC_CFG_TV_SYSTEM_DEMO">演示</string>
+    <string name="KTC_CFG_TV_4K_IMAGE_DEMO">4K动态</string>
+    <string name="KTC_CFG_TV_PANEL_COLOR_DEMO">全色域</string>
+    <string name="KTC_CFG_TV_LOCAL_DIMMING_DEMO">矩阵背光</string>
+    <string name="KTC_CFG_TV_3D_SET">3D</string>
+    <string name="KTC_CFG_TV_CHANNEL_SORT">频道排序</string>
+    <string name="KTC_CFG_TV_CHANNEL_DELET">删除频道</string>
+    <string name="KTC_CFG_TV_CHANNEL_DELET_HAVE">已删频道</string>
+    <string name="KTC_CFG_TV_VGA_AUTO_ADJUST">自动校正</string>
+    <string name="USER_COLLECT_SUCCESS">收藏成功！</string>
+    <string name="USER_COLLECT_FAILED">抱歉，收藏失败啦！</string>
+    <string name="USER_UNCOLLECT_SUCCESS">取消收藏成功！</string>
+    <string name="USER_UNCOLLECT_FAILED">抱歉，取消收藏失败啦！</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_GAME">游戏</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_DOLBY_VISION_MOVIE_DARK">杜比柔和</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_DOLBY_VISION_MOVIE_BRIGHT">杜比明亮</string>
+    <string name="KTC_CFG_TV_PICTURE_MODE_PROFESSIONAL">专业</string>
+    <string name="KTC_LOCATION_SET">城市设置</string>
+    <string name="China">中国</string>
+    <string name="location_from_ip_tip">根据IP判断当前位置：</string>
+    <string name="location_last_config_tip">上次设置位置：</string>
+    <string name="location_get_failed">抱歉，获取位置信息失败</string>
+    <string name="location_not_set">尚未设置位置信息</string>
+    <string name="location_manual_set">手动切换</string>
+    <string name="KTC_DVBC_CAREGION_REBOOT">"      重置会清除数字电视序列号、机卡绑定等重要信息并重启系统
+    数字电视也需要重新配置。是否需要重置？"</string>
+    <string name="KTC_DVBC_REBOOT_YESORNOT">警告</string>
+    <string name="KTC_DVBC_REBOOT_OK">重置</string>
+    <string name="KTC_DVBC_REBOOT_CANCEL">取消</string>
+    <string name="deletetitle">是否确定删除【</string>
+    <string name="deletesubtitle">删除后可在【已删频道】中找回</string>
+    <string name="delete_brackets">】?</string>
+    <string name="channelAudioFormatNotSupported">不支持此频道的伴音格式</string>
+    <string name="enterstbmode">遥控器控制机顶盒，在【菜单-智控机顶盒】中关闭</string>
+    <string name="open_tv_guide">引导已打开</string>
+    <string name="close_tv_guide">引导已关闭</string>
+    <string name="TVEXIT_REMIND">再按一次返回退出电视</string>
+    <string name="TVEXITING_REMIND">正在退出电视...</string>
+    <string name="TV_SIGNALFORMAT_NOTSUPPORTED">不支持当前输入信号格式</string>
+    <string name="TV_VGAAUTOADJUST_SUCCESS">自动校正成功</string>
+    <string name="TV_VGAAUTOADJUST_FAIL">自动校正失败</string>
+    <string name="band_width">带宽</string>
+    <string name="module_mode">调制方式</string>
+    <string name="program_tv">电视节目</string>
+    <string name="program_radio">广播节目</string>
+    <string name="program_others">其它节目</string>
+    <string name="channel_setting">频道设置</string>
+    <string name="enter">进入</string>
+    <string name="frequency">频率</string>
+    <string name="channel_count">已搜到台数</string>
+    <string name="back_hint">按返回键退出</string>
+    <string name="video_vod">视频点播</string>
+    <string name="main_frequencypoint">主频点</string>
+    <string name="loader_frequencypoint">loader频点</string>
+    <string name="start_search">开始搜台</string>
+    <string name="confirm">确定</string>
+    <string name="city_setting">区域设置</string>
+    <string name="switch_city">切换地区</string>
+    <string name="KTC_SEARCH">搜索</string>
+    <string name="KTC_H_DIRECTION_KEY">左右移动光标</string>
+    <string name="KTC_V_DIRECTION_KEY">上下移动光标</string>
+    <string name="KTC_DELETE">删除</string>
+    <string name="KTC_SHUTTLE_ROTATE">飞梭拨动选择</string>
+    <string name="KTC_SEARCH_LEFTKEY">按左键删除</string>
+    <string name="KTC_SEARCH_TEXT">拼音首字母搜索</string>
+    <string name="TV_STRING_IPLIVE_BUFFERING">缓冲中</string>
+    <string name="TV_STRING_IPLIVE_NOT_SUPPORT_URL">无法播放该地址</string>
+    <string name="TV_STRING_IPLIVE_VOD_LAST_10_SEC">回看节目即将结束</string>
+    <string name="TV_STRING_VOD_LOOKBACK">回看</string>
+    <string name="TV_STRING_VOD_TIMESHIFT">时移</string>
+    <string name="str_frequency_setting">频点设置</string>
+    <string name="TV_STRING_CHANNELSEARCH">频道搜索</string>
+    <string name="KTC_CFG_TV_DTV_DISPLAY_MODE">显示模式</string>
+
+    <string name="str_cha_channel">频道</string>
+    <string name="str_cha_autotuning">自动搜台</string>
+    <string name="str_cha_manualtuning">手动搜台</string>
+    <string name="str_cha_dtvmanualtuning"> DTV手动搜台</string>
+    <string name="str_cha_atvmanualtuning">ATV手动搜台</string>
+    <string name="str_cha_programedit">频道编辑</string>
+    <string name="str_cha_ciinformation"> CI信息</string>
+    <string name="str_mainmenu_menu">菜单</string>
+    <string name="str_cha_autotuning_tuningtype">自动搜台类型</string>
+    <string name="str_cha_autotuning_tuningtype_atv">模拟电视</string>
+
+
+
+
+    <string name="str_cha_channeltuning">自动搜台</string>
+    <string name="str_cha_tv">电视：</string>
+    <string name="str_cha_atv">模拟电视：</string>
+    <string name="str_cha_tv_0">0</string>
+    <string name="str_cha_dtv">数字电视：</string>
+
+
+    <string name="str_cha_dtvautotuning_frequency">频率</string>
+    <string name="str_cha_dtvautotuning_modulation">调制</string>
+    <string name="str_cha_dtvautotuning_symbol">符号率</string>
+    <string name="str_cha_dtvautotuning_signalstrength">信号强度</string>
+    <string name="str_cha_dtvautotuning_signalquality">信号质量</string>
+    <string name="str_cha_radio">广播：</string>
+    <string name="str_cha_data">数据：</string>
+    <string name="str_cha_program">节目 </string>
+    <string name="str_cha_tuningprogress_percent_0">0%</string>
+    <string name="str_cha_tuningprogress_vhf">VHF</string>
+    <string name="str_cha_tuningprogress_ch">频道</string>
+    <string name="str_cha_tuningprogress_dtv">数字电视</string>
+    <string name="str_cha_exittuning_info">你确定要退出搜台？ </string>
+    <string name="str_cha_exitDTVtuning_info">你确定要退出数字电视搜台？ </string>
+    <string name="str_cha_exitATVtuning_info">你确定要退出模拟电视搜台？ </string>
+    <string name="str_cha_exittuning_yes">是</string>
+    <string name="str_cha_exittuning_no">否</string>
+    <string name="str_cha_dtvmanualtuning_channelno">频道号</string>
+    <string name="str_cha_dtvmanualtuning_ch">频道</string>
+    <string name="str_cha_dtvmanualtuning_ch_1">1</string>
+    <string name="str_cha_dtvmanualtuning_modulation_64qam">64QAM</string>
+    <string name="str_cha_dtvmanualtuning_frequency">频率</string>
+    <string name="str_cha_dtvmanualtuning_modulation">调制</string>
+    <string name="str_cha_dtvmanualtuning_symbol">符号率</string>
+    <string name="str_cha_dtvmanualtuning_starttuning">搜索</string>
+    <string name="str_cha_dtvmanualtuning_signalstrength">信号强度</string>
+    <string name="str_cha_dtvmanualtuning_signalquality">信号质量</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_dtv">数字电视：</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_0">0</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_radio">电台：</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_data">数据：</string>
+    <string name="str_cha_atvmanualtuning_channelno">频道号</string>
+    <string name="str_cha_atvmanualtuning_ch">CH</string>
+    <string name="str_cha_atvmanualtuning_channel_1">1</string>
+    <string name="str_cha_atvmanualtuning_colorsystem">彩色制式</string>
+    <string name="str_cha_atvmanualtuning_colorsystem_Auto">自动</string>
+    <string name="str_cha_atvmanualtuning_soundsystem">声音制式</string>
+    <string name="str_cha_atvmanualtuning_soundsystem_Auto">自动</string>
+    <string name="str_cha_atvmanualtuning_starttuning">搜索</string>
+    <string name="str_cha_atvmanualtuning_starttuning_state">搜索中... ...</string>
+    <string name="str_cha_atvmanualtuning_starttuning_state_reminder">“按左、右键、确认键”搜索</string>
+    <string name="str_cha_atvmanualtuning_frequency">频率：</string>
+    <string name="str_cha_atvmanualtuning_frequency_427">427</string>
+    <string name="str_cha_atvmanualtuning_frequency_mhz">MHz</string>
+    <string name="str_cha_atvmanualtuning_frequency_khz">KHz</string>
+
+    <string name="str_cha_dtvautotuning_startscan">Start Scan</string>
+
+    <string name="str_cha_dtvautotuning_networkid">Network ID</string>
+    <string name="str_cha_dtvautotuning_networkid_invalid">NetworkID Invalid</string>
+    <string name="str_cha_dtvautotuning_ok">ok</string>
+    <string name="str_cha_dtvautotuning_auto">Auto</string>
+
+    <string name="str_cha_dvbsdtvtuning_scanmode">Scan Mode</string>
+    <string name="str_cha_dvbsdtvtuning_servicetype">Service Type</string>
+    <string name="str_cha_dvbsdtvtuning_networksearch">Network Search</string>
+    <string name="str_cha_dvbsdtvtuning_transponder">Transponder</string>
+    <string name="str_cha_dvbsdtvtuning_satellite">Satellite</string>
+    <string name="str_cha_dvbsdtvtuning_searchtype">Search Option</string>
+
+    <string name="str_cha_dtvmanualtuning_galaxy">GALAXY</string>
+    <string name="str_cha_dtvmanualtuning_polarization">Polarization</string>
+    <string name="str_cha_dtvmanualtuning_network">Network</string>
+    <string name="str_cha_dtvmanualtuning_scan_mode">Scan Mode</string>
+    <string name="str_cha_dtvmanualtuning_service_type">Service type</string>
+    <string name="str_cha_transport_stream">Transport stream</string>
+    <string name="str_cha_service">Service</string>
+    <string name="str_cha_save">Save</string>
+    <string name="str_cha_software_version">Software Version</string>
+    <string name="str_demo_demo">Demo</string>
+    <string name="str_demo_mwe">MWE</string>
+    <string name="str_demo_dbc">DBC</string>
+    <string name="str_demo_off">Off</string>
+    <string name="str_demo_dlc">DLC</string>
+    <string name="str_demo_dcc">DCC</string>
+    <string name="str_demo_nr">Picture NR</string>
+    <string name="str_demo_uclear">Ultra Clear</string>
+
+    <string name="input_password_hint">请输入密码</string>
+
+    <string name="str_channelList_favorite">喜爱列表</string>
+    <string name="str_channelList_program">节目列表</string>
+
+    <string name="str_sound_format_mono">单声道</string>
+    <string name="str_sound_format_dual_a">双语 A</string>
+    <string name="str_sound_format_dual_ab">双语 AB</string>
+    <string name="str_sound_format_dual_b">双语 B</string>
+    <string name="str_sound_format_forced_mono">单声道</string>
+    <string name="str_sound_format_g_stereo">立体声</string>
+    <string name="str_sound_format_hidev_mono">单声道</string>
+    <string name="str_sound_format_unknown">未知</string>
+    <string name="str_sound_format_k_stereo">立体声</string>
+    <string name="str_sound_format_left_left">左 左</string>
+    <string name="str_sound_format_left_right">左 右</string>
+    <string name="str_sound_format_mono_sap">单声道 SAP</string>
+    <string name="str_sound_format_nicam_dual_a">丽音 双语 A</string>
+    <string name="str_sound_format_nicam_dual_ab">丽音 双语 AB</string>
+    <string name="str_sound_format_nicam_dual_b">丽音 双语 B</string>
+    <string name="str_sound_format_nicam_mono">丽音 单声道</string>
+    <string name="str_sound_format_nicam_stereo">丽音 立体声</string>
+    <string name="str_sound_format_right_right">右 右</string>
+    <string name="str_sound_format_stereo_sap">立体声 SAP</string>
+
+    <string name="str_sourceinfo_TV">电视</string>
+    <!-- nathan.liao 2015.03.03 add for T4C1 board start -->
+    <string name="str_sourceinfo_CVBS">视频</string>
+    <!-- nathan.liao 2015.03.03 add for T4C1 board end -->
+    <string name="str_sourceinfo_CVBS1">视频</string>
+    <string name="str_sourceinfo_CVBS2">视频2</string>
+    <string name="str_sourceinfo_YPBPR">分量</string>
+    <string name="str_sourceinfo_VGA">电脑</string>
+
+    <string name="program_skip_str">跳跃</string>
+    <string name="program_edit_str">编辑</string>
+    <string name="program_favorite_str">喜爱</string>
+    <string name="program_delete_str">删除</string>
+    <string name="program_move_str">移动</string>
+    <string name="str_program_edit_dialog_ok">确定</string>
+    <string name="str_program_edit_dialog_cancel">取消</string>
+    <string name="str_program_edit_dialog_input">请输入</string>
+    <string name="str_no_sinal">无信号</string>
+    <string name="program_guide_time">Program Guide:Time</string>
+    <string name="search_atv_auto_exit">确定退出模拟电视自动搜台么？</string>
+    <string name="search_now_auto_exit">现在就退出么？</string>
+    <string name="search_dtv_auto_exit">确定退出地面电视自动搜台么？</string>
+    <string name="menu_back">返回</string>
+    <string name="menu_symbol_colon">:</string>
+    <string name="menu_exit">退出</string>
+    <string name="tv_string_dtv_channel_id">频道号</string>
+    <string name="tv_string_dtv_channel_name">频道名称</string>
+    <string name="tv_string_dtv_sigfrequency">信号频率</string>
+    <string name="tv_string_dtv_soundformat">声音格式</string>
+    <string name="tv_string_dtv_imagformat">图像格式</string>
+    <string name="tv_string_dtv_sigquality">信号质量</string>
+    <string name="tv_string_dtv_sigintensity">信号强度</string>
+
+    <string name="str_root_alert_dialog_title">提示</string>
+    <string name="str_root_alert_dialog_message">确定要退出电视系统？ </string>
+    <string name="str_root_alert_dialog_confirm">确定</string>
+    <string name="str_root_alert_dialog_cancel">取消</string>
+
+    <string name="str_tvsetting_auto_adjust">自动调整</string>
+    <string name="str_tvsetting_soundMode_null">无立体声</string>
+    <string name="str_tvsetting_subtitleLanguage_close">关闭</string>
+    <string name="str_tvsetting_subtitleLanguage_null">无可用字幕</string>
+    <string-array name="str_array_language_dtmb">
+    <item>捷克语</item>
+    <item>丹麦语</item>
+    <item>德语</item>
+    <item>英语</item>
+    <item>西班牙语</item>
+    <item>希腊语</item>
+    <item>法语</item>
+    <item>克罗地亚语</item>
+    <item>意大利语</item>
+    <item>匈牙利语</item>
+    <item>荷兰语</item>
+    <item>挪威语</item>
+    <item>波兰语</item>
+    <item>葡萄牙语</item>
+    <item>俄语</item>
+    <item>蒙古语</item>
+    <item>印度尼西亚</item>
+    <item>泰语</item>
+    <item>波斯语</item>
+    <item>阿拉伯语</item>
+    <item>希伯来语</item>
+    <item>罗马尼亚语</item>
+    <item>斯洛文尼亚语</item>
+    <item>塞尔维亚语</item>
+    <item>芬兰语</item>
+    <item>瑞典语</item>
+    <item>保加利亚语</item>
+    <item>威尔士语</item>
+    <item>中文</item>
+        <item>爱尔兰语</item>
+        <item>韩语</item>
+        <item>日语</item>
+        <item>印地语</item>
+        <item>毛利语</item>
+        <item>普通话</item>
+        <item>粤语</item>
+        <item>土耳其语</item>
+        <item>盖尔语</item>
+    </string-array>
+    <string name="str_invalid_service">无效服务</string>
+    <string name="str_no_signal">无信号</string>
+    <string name="str_no_ci_module">未插CI卡</string>
+    <string name="str_ci_plus_authentication">CI+ 认证</string>
+    <string name="str_scrambled_program">加密节目</string>
+    <string name="str_program_block">锁定节目</string>
+    <string name="str_parental_block">父母锁定</string>
+    <string name="str_audio_only">音频节目</string>
+    <string name="str_data_only">数据节目</string>
+    <string name="str_unsupported">不支持</string>
+    <string name="str_invalid_pmt">无效 PMT</string>
+
+    <string name="str_auto_adjust">自动调整</string>
+    <string name="str_pic_picture_adjustment">图像调整</string>
+
+    <!-- for audio language list -->
+    <string name="str_audio_language_title">音乐语种 </string>
+    <!-- for cimmi -->
+    <string name="str_cimmi_title">CI信息</string>
+    <string name="str_cimmi_hint_ci_inserted">CI卡插入</string>
+    <string name="str_cimmi_hint_ci_removed">CI卡移除</string>
+    <string name="str_cimmi_hint_ci_auto_test">CI自测</string>
+    <string name="str_cimmi_hint_ci_passwd_hint">输入密码</string>
+    <!-- for current action -->
+    <string name="str_current_action">加载</string>
+    <!-- for pvr file system -->
+    <string name="str_pvr_file_system_title">个人视频文件系统</string>
+    <string name="str_pvr_file_system_select_disk">磁盘选择</string>
+    <string name="str_pvr_file_system_time_shift_size">时间前进长度</string>
+    <string name="str_pvr_file_system_format_start">格式化</string>
+    <string name="str_pvr_file_system_format_context">成功</string>
+    <string name="str_pvr_file_system_speed_check">速度测试</string>
+    <string name="str_pvr_file_system_speed_context">完成</string>
+    <string name="str_pvr_file_system_always_timeshift">Always Timeshift</string>
+    <string name="str_pvr_file_system_always_context">打开</string>
+
+    <!-- for pvr full page browser -->
+    <string name="str_pvr_lcn_textview">LCN</string>
+    <string name="str_pvr_channel_textview">频道</string>
+    <string name="srt_pvr_program_service_textview">节目供应</string>
+    <string name="str_pvr_program_service_tips_red">删除</string>
+    <string name="str_pvr_program_service_tips_green">升序</string>
+    <string name="str_pvr_program_service_tips_descend">降序</string>
+    <string name="str_pvr_program_service_tips_blue">排序</string>
+    <string name="str_pvr_program_service_tips_yellow">OK</string>
+    <string name="str_pvr_lcn_title">标题</string>
+    <string name="str_pvr_lcn_record_data">记录数据</string>
+    <string name="str_pvr_lcn_data">2011-11-25</string>
+
+    <!-- For epg schedule list -->
+    <string name="str_epg_program_schedule_list_modify">修改</string>
+    <string name="str_epg_program_schedule_list_delete">删除</string>
+
+    <!-- for Channel -->
+    <string name="str_cha_antannatype">Antenna Type</string>
+
+    <string name="str_cha_antannatype_none">None</string>
+    <string name="str_cha_antannatype_air">天线类型</string>
+    <string name="str_cha_antannatype_cable">有线</string>
+
+    <string-array name="guidance_list_default_string">
+        <item>关闭</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="guidance_list_singapore_string">
+        <item>关闭</item>
+        <item>G</item>
+        <item>PG</item>
+        <item>PG13</item>
+        <item>NC16</item>
+        <item>M18</item>
+        <item>R21</item>
+    </string-array>
+
+    <string-array name="guidance_list_australian_string">
+        <item>关闭</item>
+        <item>Block All</item>
+        <item>P</item>
+        <item>C</item>
+        <item>G</item>
+        <item>PG</item>
+        <item>M</item>
+        <item>MA15+</item>
+        <item>AV15+</item>
+        <item>R</item>
+    </string-array>
+
+    <string-array name="contentlock_list">
+        <item>None</item>
+        <item>Drugs</item>
+        <item>Violence</item>
+        <item>Violence and Drugs</item>
+        <item>Sex</item>
+        <item>Sex and Drugs</item>
+        <item>Violence and Sex</item>
+        <item>Violence, Sex and Drugs</item>
+    </string-array>
+
+    <string name="str_dtv_source_info_age">年龄</string>
+    <string name="str_disk_too_slow">U盘读取过慢</string>
+    <string name="enter_old_pwd">请输入旧密码</string>
+    <string name="enter_check_pwd">请输入密码</string>
+    <string name="enter_new_pwd">请输入新密码</string>
+    <string name="confirm_new_pwd">请确认新密码</string>
+    <string name="block_program_title">节目锁定</string>
+</resources>

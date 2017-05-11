@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/channel_info"
+    android:layout_width="700dip"
+    android:layout_height="400dip"
+    android:layout_gravity="center"
+    android:background="@drawable/ui_sdk_other_page_bg_pe">
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="180dip"
+            android:layout_height="60dip"
+            android:gravity="center"
+            android:text="@string/channel_info"
+            android:textColor="@color/ff2c2c2c"
+            android:textSize="30dip" />
+
+        <ImageView
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ui_sdk_menu_title_line" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="500dip"
+        android:layout_height="250dip"
+        android:layout_marginLeft="100dip"
+        android:scrollbarThumbVertical="@drawable/scroll_bar"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="500dip"
+
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="300dip"
+                    android:layout_height="50dip"
+                    android:gravity="center|left"
+                    android:textSize="28sp"
+                    android:textColor="@color/ff2c2c2c"
+	                    android:text="@string/tv_string_dtv_channel_id" />
+
+                <TextView
+                    android:id="@+id/dtv_channelinfo_channelnumber"
+                    android:layout_width="200dip"
+                    android:layout_height="50dip"
+                    android:textColor="@color/ff2c2c2c"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center|left"
+                    android:textSize="28sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/ui_sdk_menu_title_line" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="300dip"
+                    android:layout_height="50dip"
+                    android:gravity="center|left"
+                    android:textSize="28sp"
+                    android:textColor="@color/ff2c2c2c"
+	                    android:text="@string/tv_string_dtv_channel_name" />
+
+                <com.horion.tv.framework.MarqueeTextView
+                    android:id="@+id/dtv_channelinfo_channelname"
+                    android:layout_width="200dip"
+                    android:layout_height="50dip"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center|left"
+                    android:focusable="true"
+                    android:singleLine="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:textColor="@color/ff2c2c2c"
+                    android:textSize="28sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/ui_sdk_menu_title_line" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="300dip"
+                    android:layout_height="50dip"
+                    android:gravity="center|left"
+                    android:textSize="28sp"
+                    android:textColor="@color/ff2c2c2c"
+	                    android:text="@string/tv_string_dtv_sigfrequency" />
+
+                <TextView
+	                    android:id="@+id/dtv_channelinfo_sigfrequency"
+                    android:layout_width="200dip"
+                    android:layout_height="50dip"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center|left"
+                    android:textColor="@color/ff2c2c2c"
+                    android:textSize="28sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/ui_sdk_menu_title_line" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="300dip"
+                    android:layout_height="50dip"
+                    android:gravity="center|left"
+                    android:textSize="28sp"
+                    android:textColor="@color/ff2c2c2c"
+	                    android:text="@string/tv_string_dtv_soundformat"/>
+
+                <TextView
+	                    android:id="@+id/dtv_channelinfo_soundformat"
+                    android:layout_width="200dip"
+                    android:layout_height="50dip"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center|left"
+                    android:textColor="@color/ff2c2c2c"
+                    android:textSize="28sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/ui_sdk_menu_title_line" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="300dip"
+                    android:layout_height="50dip"
+                    android:gravity="center|left"
+                    android:textSize="28sp"
+                    android:textColor="@color/ff2c2c2c"
+	                    android:text="@string/tv_string_dtv_imagformat" />
+
+                <TextView
+	                    android:id="@+id/dtv_channelinfo_imagformat"
+                    android:layout_width="200dip"
+                    android:layout_height="50dip"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center|left"
+                    android:textColor="@color/ff2c2c2c"
+                    android:textSize="28sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/ui_sdk_menu_title_line" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="300dip"
+                    android:layout_height="50dip"
+                    android:gravity="center|left"
+                    android:textSize="28sp"
+                    android:textColor="@color/ff2c2c2c"
+	                    android:text="@string/tv_string_dtv_sigintensity" />
+
+                <TextView
+	                    android:id="@+id/dtv_channelinfo_sigintensity"
+                    android:layout_width="200dip"
+                    android:layout_height="50dip"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center|left"
+                    android:textColor="@color/ff2c2c2c"
+                    android:textSize="28sp"
+                     />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/ui_sdk_menu_title_line" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="300dip"
+                    android:layout_height="50dip"
+                    android:gravity="center|left"
+                    android:textSize="28sp"
+                    android:textColor="@color/ff2c2c2c"
+	                    android:text="@string/tv_string_dtv_sigquality" />
+
+                <TextView
+	                    android:id="@+id/dtv_channelinfo_sigquality"
+                    android:layout_width="200dip"
+                    android:layout_height="50dip"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center|left"
+                    android:textColor="@color/ff2c2c2c"
+                    android:textSize="28sp"
+                     />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/ui_sdk_menu_title_line" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_root"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <LinearLayout
+        android:id="@+id/linear_layout_popup_ontime"
+        android:orientation="horizontal"
+        android:layout_width="67dip"
+        android:layout_height="50dip"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dip"
+            android:text="@string/str_root_popup_left" />
+        <TextView
+            android:id="@+id/text_view_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dip" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dip"
+            android:text="@string/str_root_popup_second" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dip"
+            android:text="@string/str_root_popup_switch_to" />
+        <TextView
+            android:id="@+id/text_view_target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout_popup_offtime"
+        android:orientation="horizontal"
+        android:layout_width="267dip"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/ui_sdk_other_page_bg_pe"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/text_view_offsecond"
+            android:layout_width="33dip"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:textColor="@color/ff061527"
+            android:textSize="26sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:textColor="@color/ff061527"
+            android:textSize="26sp"
+            android:text="@string/str_root_popup_off_after" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout_popup_ready_switch"
+        android:orientation="horizontal"
+        android:layout_width="67dip"
+        android:layout_height="50dip"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dip"
+            android:text="@string/str_root_popup_ready_to_switch" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout_popup_ready_off"
+        android:orientation="horizontal"
+        android:layout_width="67dip"
+        android:layout_height="50dip"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dip"
+            android:text="@string/str_root_popup_ready_off" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout_popup_system_clkchange"
+        android:orientation="horizontal"
+        android:layout_width="337dip"
+        android:layout_height="50dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/picture_mode_img_focus"
+        android:gravity="center"
+        android:visibility="gone" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="15dip"
+            android:text="@string/str_root_popup_system_clock_change" />
+    </LinearLayout>
+</LinearLayout>

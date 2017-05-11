@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="circlular_default_running_color">#ff0e9aeb</color>
+    <color name="circlular_default_bg_color">#19ffffff</color>
+    <color name="ffffff">#ffffffff</color>
+    <color name="a0ffffff">#a0ffffff</color>
+    <color name="ff7f24">#ffff7f24</color>
+    <color name="a70ffffff">#b0ffffff</color>
+    <color name="ff061527">#ff061527</color>
+</resources>

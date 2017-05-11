@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/list_view_item_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" 
+                android:descendantFocusability="blocksDescendants">
+
+                <LinearLayout
+                    android:id="@+id/input_source_img_circle"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/input_source_img"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/input_source_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:duplicateParentState="true"
+                    android:maxWidth="250dp"
+                    android:layout_marginLeft="25dp"
+                    android:ellipsize="marquee" 
+			        android:singleLine="true"
+			        android:marqueeRepeatLimit="marquee_forever" 
+			        android:focusableInTouchMode="true" 
+			        android:scrollHorizontally="true"
+                    android:textSize="22sp" />
+            </LinearLayout>

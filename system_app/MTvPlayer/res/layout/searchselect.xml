@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/channeloption"
+    android:layout_width="700dip"
+    android:layout_height="360dip"
+    android:layout_gravity="center"
+    android:background="@drawable/ui_sdk_other_page_bg_pe" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="220dip"
+            android:layout_height="60dip"
+            android:textSize="30dip"
+            android:gravity="center"
+            android:textColor="@color/ff333333"
+            android:text="@string/search_channel"/>
+        <ImageView
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ui_sdk_menu_title_line"/>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="80dip">
+    <ListView
+        android:id="@+id/searchlistview"
+        android:listSelector="@drawable/search_selected_state"
+        android:layout_width="match_parent"
+        android:layout_height="300dip"
+        android:divider="@drawable/search_item_divider"
+        android:dividerHeight="1dp"
+        ></ListView>
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LgxAppBaseTheme" parent="@android:style/Theme.Light" />
+    <style name="LgxAppTheme" parent="@style/LgxAppBaseTheme" />
+    <style name="Lgxdialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <style name="Lgxdialog_tran" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Lgxdialog_untran" parent="@style/Lgxdialog_tran">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+<!--
+
+
+<style name="AppTheme" parent="AppBaseTheme">  
+  
+        &lt;!&ndash; <item name="android:windowAnimationStyle">@style/Animation.Activity.Style</item> &ndash;&gt;
+        <item name="android:windowAnimationStyle">@style/Animation.Activity.Translucent.Style</item>  
+        <item name="android:windowBackground">@android:color/transparent</item>  
+        <item name="android:windowIsTranslucent">true</item>  
+    </style>  
+  
+    <style name="Animation.Activity.Style" parent="@android:style/Animation.Activity">  
+        <item name="android:activityOpenEnterAnimation">@anim/zoomin</item>
+        <item name="android:activityOpenExitAnimation">@anim/zoomout</item>
+        <item name="android:activityCloseEnterAnimation">@anim/zoomin</item>
+        <item name="android:activityCloseExitAnimation">@anim/zoomout</item>
+        <item name="android:taskOpenEnterAnimation">@anim/zoomin</item>
+        <item name="android:taskOpenExitAnimation">@anim/zoomout</item>
+        <item name="android:taskCloseEnterAnimation">@anim/zoomin</item>
+        <item name="android:taskCloseExitAnimation">@anim/zoomout</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/zoomin</item>
+        <item name="android:taskToFrontExitAnimation">@anim/zoomout</item>
+        <item name="android:taskToBackEnterAnimation">@anim/zoomin</item>
+        <item name="android:taskToBackExitAnimation">@anim/zoomout</item>
+    </style>  
+  
+    <style name="Animation.Activity.Translucent.Style" parent="@android:style/Animation.Translucent">  
+        <item name="android:windowEnterAnimation">@anim/zoomin</item>
+        <item name="android:windowExitAnimation">@anim/zoomout</item>
+    </style> -->
+</resources>

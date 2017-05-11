@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="55dp"
+    android:insetRight="55dp"
+    android:drawable="@drawable/ui_sdk_menu_title_line">
+</inset>

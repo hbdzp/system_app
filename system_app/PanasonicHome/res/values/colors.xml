@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="circlular_default_running_color">#ff0e9aeb</color>
+    <color name="circlular_default_bg_color">#19ffffff</color>
+    <color name="ffffff">#ffffffff</color>
+    <color name="a0ffffff">#a0ffffff</color>
+    <color name="ff7f24">#ffff7f24</color>
+    <color name="a70ffffff">#b0ffffff</color>
+    <color name="ff061527">#ff061527</color>
+    <color name="ff000000">#ff000000</color>
+    <color name="ff333333">#ff333333</color>
+    <color name="ff5b5b5b">#ff5b5b5b</color>
+    <color name="ff707070">#ff707070</color>
+    <color name="ff8c9daa">#ff8c9daa</color>
+    <color name="ff999999">#ff999999</color>
+    <color name="ff2c2c2c">#ff2c2c2c</color>
+    <color name="default_overlay_color">#aaffffff</color>
+</resources>

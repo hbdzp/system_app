@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@anim/activity_anim_cycle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:duration="100" android:fromXDelta="0.0" android:toXDelta="-5.0" android:fromYDelta="0.0" android:toYDelta="-5.0" />
+    <translate android:duration="100" android:startOffset="100" android:fromXDelta="0.0" android:toXDelta="5.0" android:fromYDelta="0.0" android:toYDelta="-5.0" />
+    <translate android:duration="100" android:startOffset="200" android:fromXDelta="0.0" android:toXDelta="-5.0" android:fromYDelta="0.0" android:toYDelta="5.0" />
+    <translate android:duration="100" android:startOffset="300" android:fromXDelta="0.0" android:toXDelta="5.0" android:fromYDelta="0.0" android:toYDelta="5.0" />
+</set>
